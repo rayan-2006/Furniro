@@ -1,0 +1,32 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:tailwind": "npx @tailwindcss/cli -i ./assets/css/input.css -o ./assets/css/output.css --minify",
+    "watch:tailwind": "npx @tailwindcss/cli -i ./assets/css/input.css -o ./assets/css/output.css --watch",
+    "build:scss": "sass ./assets/scss/pages/home.scss ./assets/css/main.css",
+    "watch:scss": "chokidar \"assets/scss/**/*.scss\" -c \"sass ./assets/scss/pages/home.scss ./assets/css/main.css\"",
+    "build:js": "esbuild assets/js/entry-home.js --bundle --minify --outfile=assets/js/dist/entry-home.js",
+    "watch:js": "esbuild assets/js/entry-home.js --bundle --outfile=assets/js/dist/entry-home.js --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "jquery": "^4.0.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "vue": "^3.5.43"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "chokidar-cli": "^3.0.0",
+    "esbuild": "^0.28.2",
+    "sass": "^1.104.1",
+    "tailwindcss": "^4.3.3"
+  }
+}
