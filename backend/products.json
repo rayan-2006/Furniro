@@ -1,0 +1,2502 @@
+[
+  {
+    "product_id": 1,
+    "name": "Arden 3-Seater Fabric Sofa",
+    "sku": "FURN-SOFA-001",
+    "category": "Sofas",
+    "tags": [
+      "fabric",
+      "recliner",
+      "living-room"
+    ],
+    "price": 742,
+    "short_description": "Modern durable sofa for daily comfort.",
+    "detailed_description": "Built with a reinforced frame and quality upholstery. Balanced cushions provide comfort and support every day.",
+    "main_image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 272,
+      "height_cm": 97,
+      "depth_cm": 157,
+      "weight_kg": 87,
+      "seat_height_cm": 48,
+      "leg_height_cm": 15
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "1 Sofa",
+      "model_number": "FURN-SOFA-001",
+      "secondary_material": "Wood",
+      "configuration": "3 Seater",
+      "upholstery_material": "Fabric",
+      "upholstery_color": "Ash Grey"
+    },
+    "product_details": {
+      "filling_material": "Foam",
+      "finish_type": "Matte",
+      "adjustable_headrest": false,
+      "max_load_capacity_kg": 560,
+      "origin_of_manufacture": "India"
+    }
+  },
+  {
+    "product_id": 2,
+    "name": "Rowan L-Shape Sectional Sofa",
+    "sku": "FURN-SOFA-002",
+    "category": "Sofas",
+    "tags": [
+      "fabric",
+      "modern",
+      "comfortable"
+    ],
+    "price": 990,
+    "short_description": "Modern durable sofa for daily comfort.",
+    "detailed_description": "Built with a reinforced frame and quality upholstery. Balanced cushions provide comfort and support every day.",
+    "main_image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 190,
+      "height_cm": 93,
+      "depth_cm": 88,
+      "weight_kg": 86,
+      "seat_height_cm": 48,
+      "leg_height_cm": 15
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "1 Sofa",
+      "model_number": "FURN-SOFA-002",
+      "secondary_material": "Wood",
+      "configuration": "3 Seater",
+      "upholstery_material": "Velvet",
+      "upholstery_color": "Beige"
+    },
+    "product_details": {
+      "filling_material": "Foam",
+      "finish_type": "Semi-Gloss",
+      "adjustable_headrest": false,
+      "max_load_capacity_kg": 367,
+      "origin_of_manufacture": "Vietnam"
+    }
+  },
+  {
+    "product_id": 3,
+    "name": "Marlow Tufted Velvet Sofa",
+    "sku": "FURN-SOFA-003",
+    "category": "Sofas",
+    "tags": [
+      "durable",
+      "luxury",
+      "sectional"
+    ],
+    "price": 1014,
+    "short_description": "Modern durable sofa for daily comfort.",
+    "detailed_description": "Built with a reinforced frame and quality upholstery. Balanced cushions provide comfort and support every day.",
+    "main_image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 184,
+      "height_cm": 102,
+      "depth_cm": 130,
+      "weight_kg": 39,
+      "seat_height_cm": 47,
+      "leg_height_cm": 16
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "1 Sofa",
+      "model_number": "FURN-SOFA-003",
+      "secondary_material": "Wood",
+      "configuration": "3 Seater",
+      "upholstery_material": "Leather",
+      "upholstery_color": "Emerald Green"
+    },
+    "product_details": {
+      "filling_material": "Foam",
+      "finish_type": "Satin",
+      "adjustable_headrest": false,
+      "max_load_capacity_kg": 494,
+      "origin_of_manufacture": "Turkey"
+    }
+  },
+  {
+    "product_id": 4,
+    "name": "Haven Leather Recliner Sofa",
+    "sku": "FURN-SOFA-004",
+    "category": "Sofas",
+    "tags": [
+      "modern",
+      "luxury",
+      "durable"
+    ],
+    "price": 1681,
+    "short_description": "Modern durable sofa for daily comfort.",
+    "detailed_description": "Built with a reinforced frame and quality upholstery. Balanced cushions provide comfort and support every day.",
+    "main_image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 258,
+      "height_cm": 93,
+      "depth_cm": 141,
+      "weight_kg": 39,
+      "seat_height_cm": 46,
+      "leg_height_cm": 17
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "1 Sofa",
+      "model_number": "FURN-SOFA-004",
+      "secondary_material": "Wood",
+      "configuration": "3 Seater",
+      "upholstery_material": "Boucle",
+      "upholstery_color": "Cognac Brown"
+    },
+    "product_details": {
+      "filling_material": "Foam",
+      "finish_type": "Matte",
+      "adjustable_headrest": false,
+      "max_load_capacity_kg": 319,
+      "origin_of_manufacture": "China"
+    }
+  },
+  {
+    "product_id": 5,
+    "name": "Nora Compact 2-Seater Sofa",
+    "sku": "FURN-SOFA-005",
+    "category": "Sofas",
+    "tags": [
+      "recliner",
+      "sectional",
+      "living-room"
+    ],
+    "price": 1536,
+    "short_description": "Modern durable sofa for daily comfort.",
+    "detailed_description": "Built with a reinforced frame and quality upholstery. Balanced cushions provide comfort and support every day.",
+    "main_image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 287,
+      "height_cm": 95,
+      "depth_cm": 153,
+      "weight_kg": 85,
+      "seat_height_cm": 43,
+      "leg_height_cm": 17
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "1 Sofa",
+      "model_number": "FURN-SOFA-005",
+      "secondary_material": "Wood",
+      "configuration": "2 Seater",
+      "upholstery_material": "Performance Fabric",
+      "upholstery_color": "Charcoal"
+    },
+    "product_details": {
+      "filling_material": "Foam",
+      "finish_type": "Semi-Gloss",
+      "adjustable_headrest": false,
+      "max_load_capacity_kg": 326,
+      "origin_of_manufacture": "India"
+    }
+  },
+  {
+    "product_id": 6,
+    "name": "Crest Mid-Century Sofa",
+    "sku": "FURN-SOFA-006",
+    "category": "Sofas",
+    "tags": [
+      "fabric",
+      "durable",
+      "living-room"
+    ],
+    "price": 1570,
+    "short_description": "Modern durable sofa for daily comfort.",
+    "detailed_description": "Built with a reinforced frame and quality upholstery. Balanced cushions provide comfort and support every day.",
+    "main_image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 201,
+      "height_cm": 94,
+      "depth_cm": 116,
+      "weight_kg": 88,
+      "seat_height_cm": 43,
+      "leg_height_cm": 18
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "1 Sofa",
+      "model_number": "FURN-SOFA-006",
+      "secondary_material": "Wood",
+      "configuration": "3 Seater",
+      "upholstery_material": "Fabric",
+      "upholstery_color": "Ivory"
+    },
+    "product_details": {
+      "filling_material": "Foam",
+      "finish_type": "Satin",
+      "adjustable_headrest": false,
+      "max_load_capacity_kg": 500,
+      "origin_of_manufacture": "Vietnam"
+    }
+  },
+  {
+    "product_id": 7,
+    "name": "Aster Modular Corner Sofa",
+    "sku": "FURN-SOFA-007",
+    "category": "Sofas",
+    "tags": [
+      "luxury",
+      "durable",
+      "comfortable"
+    ],
+    "price": 1616,
+    "short_description": "Modern durable sofa for daily comfort.",
+    "detailed_description": "Built with a reinforced frame and quality upholstery. Balanced cushions provide comfort and support every day.",
+    "main_image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 293,
+      "height_cm": 101,
+      "depth_cm": 148,
+      "weight_kg": 85,
+      "seat_height_cm": 46,
+      "leg_height_cm": 14
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "1 Sofa",
+      "model_number": "FURN-SOFA-007",
+      "secondary_material": "Wood",
+      "configuration": "2 Seater",
+      "upholstery_material": "Velvet",
+      "upholstery_color": "Navy"
+    },
+    "product_details": {
+      "filling_material": "Foam",
+      "finish_type": "Matte",
+      "adjustable_headrest": false,
+      "max_load_capacity_kg": 397,
+      "origin_of_manufacture": "Turkey"
+    }
+  },
+  {
+    "product_id": 8,
+    "name": "Briar Performance Fabric Sofa",
+    "sku": "FURN-SOFA-008",
+    "category": "Sofas",
+    "tags": [
+      "recliner",
+      "luxury",
+      "living-room"
+    ],
+    "price": 566,
+    "short_description": "Modern durable sofa for daily comfort.",
+    "detailed_description": "Built with a reinforced frame and quality upholstery. Balanced cushions provide comfort and support every day.",
+    "main_image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 290,
+      "height_cm": 90,
+      "depth_cm": 112,
+      "weight_kg": 50,
+      "seat_height_cm": 48,
+      "leg_height_cm": 15
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "1 Sofa",
+      "model_number": "FURN-SOFA-008",
+      "secondary_material": "Wood",
+      "configuration": "3 Seater",
+      "upholstery_material": "Leather",
+      "upholstery_color": "Taupe"
+    },
+    "product_details": {
+      "filling_material": "Foam",
+      "finish_type": "Semi-Gloss",
+      "adjustable_headrest": false,
+      "max_load_capacity_kg": 514,
+      "origin_of_manufacture": "China"
+    }
+  },
+  {
+    "product_id": 9,
+    "name": "Luna Curved Boucle Sofa",
+    "sku": "FURN-SOFA-009",
+    "category": "Sofas",
+    "tags": [
+      "modern",
+      "luxury",
+      "comfortable"
+    ],
+    "price": 1641,
+    "short_description": "Modern durable sofa for daily comfort.",
+    "detailed_description": "Built with a reinforced frame and quality upholstery. Balanced cushions provide comfort and support every day.",
+    "main_image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 190,
+      "height_cm": 93,
+      "depth_cm": 175,
+      "weight_kg": 79,
+      "seat_height_cm": 47,
+      "leg_height_cm": 12
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "1 Sofa",
+      "model_number": "FURN-SOFA-009",
+      "secondary_material": "Wood",
+      "configuration": "3 Seater",
+      "upholstery_material": "Boucle",
+      "upholstery_color": "Ash Grey"
+    },
+    "product_details": {
+      "filling_material": "Foam",
+      "finish_type": "Satin",
+      "adjustable_headrest": false,
+      "max_load_capacity_kg": 353,
+      "origin_of_manufacture": "India"
+    }
+  },
+  {
+    "product_id": 10,
+    "name": "Orion Sleeper Sofa Bed",
+    "sku": "FURN-SOFA-010",
+    "category": "Sofas",
+    "tags": [
+      "living-room",
+      "sectional",
+      "comfortable"
+    ],
+    "price": 1480,
+    "short_description": "Modern durable sofa for daily comfort.",
+    "detailed_description": "Built with a reinforced frame and quality upholstery. Balanced cushions provide comfort and support every day.",
+    "main_image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 189,
+      "height_cm": 85,
+      "depth_cm": 182,
+      "weight_kg": 88,
+      "seat_height_cm": 46,
+      "leg_height_cm": 10
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "1 Sofa",
+      "model_number": "FURN-SOFA-010",
+      "secondary_material": "Wood",
+      "configuration": "2 Seater",
+      "upholstery_material": "Performance Fabric",
+      "upholstery_color": "Beige"
+    },
+    "product_details": {
+      "filling_material": "Foam",
+      "finish_type": "Matte",
+      "adjustable_headrest": false,
+      "max_load_capacity_kg": 267,
+      "origin_of_manufacture": "Vietnam"
+    }
+  },
+  {
+    "product_id": 11,
+    "name": "Elm Track-Arm Sofa",
+    "sku": "FURN-SOFA-011",
+    "category": "Sofas",
+    "tags": [
+      "fabric",
+      "living-room",
+      "recliner"
+    ],
+    "price": 499,
+    "short_description": "Modern durable sofa for daily comfort.",
+    "detailed_description": "Built with a reinforced frame and quality upholstery. Balanced cushions provide comfort and support every day.",
+    "main_image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 195,
+      "height_cm": 98,
+      "depth_cm": 92,
+      "weight_kg": 82,
+      "seat_height_cm": 47,
+      "leg_height_cm": 12
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "1 Sofa",
+      "model_number": "FURN-SOFA-011",
+      "secondary_material": "Wood",
+      "configuration": "3 Seater",
+      "upholstery_material": "Fabric",
+      "upholstery_color": "Emerald Green"
+    },
+    "product_details": {
+      "filling_material": "Foam",
+      "finish_type": "Semi-Gloss",
+      "adjustable_headrest": false,
+      "max_load_capacity_kg": 442,
+      "origin_of_manufacture": "Turkey"
+    }
+  },
+  {
+    "product_id": 12,
+    "name": "Vento Premium Leather Sofa",
+    "sku": "FURN-SOFA-012",
+    "category": "Sofas",
+    "tags": [
+      "recliner",
+      "durable",
+      "luxury"
+    ],
+    "price": 509,
+    "short_description": "Modern durable sofa for daily comfort.",
+    "detailed_description": "Built with a reinforced frame and quality upholstery. Balanced cushions provide comfort and support every day.",
+    "main_image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 222,
+      "height_cm": 94,
+      "depth_cm": 162,
+      "weight_kg": 42,
+      "seat_height_cm": 47,
+      "leg_height_cm": 16
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "1 Sofa",
+      "model_number": "FURN-SOFA-012",
+      "secondary_material": "Wood",
+      "configuration": "3 Seater",
+      "upholstery_material": "Velvet",
+      "upholstery_color": "Cognac Brown"
+    },
+    "product_details": {
+      "filling_material": "Foam",
+      "finish_type": "Satin",
+      "adjustable_headrest": false,
+      "max_load_capacity_kg": 473,
+      "origin_of_manufacture": "China"
+    }
+  },
+  {
+    "product_id": 13,
+    "name": "Kora Solid Oak Dining Table",
+    "sku": "FURN-DT-001",
+    "category": "Dining Tables",
+    "tags": [
+      "extendable",
+      "durable",
+      "6-seater"
+    ],
+    "price": 722,
+    "short_description": "Sturdy dining table for everyday meals.",
+    "detailed_description": "Designed with a stable base and durable top. Easy-care surfaces suit daily family dining and hosting.",
+    "main_image": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1484101403633-562f891dc89a?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1517705008128-361805f42e86?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 169,
+      "height_cm": 79,
+      "depth_cm": 113,
+      "weight_kg": 84,
+      "seat_height_cm": 0,
+      "leg_height_cm": 76
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "1 Dining Table",
+      "model_number": "FURN-DT-001",
+      "secondary_material": "Wood/Steel",
+      "configuration": "6 Seater",
+      "upholstery_material": "N/A",
+      "upholstery_color": "N/A"
+    },
+    "product_details": {
+      "filling_material": "N/A",
+      "finish_type": "Matte",
+      "adjustable_headrest": false,
+      "max_load_capacity_kg": 187,
+      "origin_of_manufacture": "India"
+    }
+  },
+  {
+    "product_id": 14,
+    "name": "Alden Extendable Dining Table",
+    "sku": "FURN-DT-002",
+    "category": "Dining Tables",
+    "tags": [
+      "rectangular",
+      "durable",
+      "modern"
+    ],
+    "price": 634,
+    "short_description": "Sturdy dining table for everyday meals.",
+    "detailed_description": "Designed with a stable base and durable top. Easy-care surfaces suit daily family dining and hosting.",
+    "main_image": "https://images.unsplash.com/photo-1484101403633-562f891dc89a?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1517705008128-361805f42e86?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1505409628601-edc9af17fda6?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 218,
+      "height_cm": 75,
+      "depth_cm": 81,
+      "weight_kg": 65,
+      "seat_height_cm": 0,
+      "leg_height_cm": 85
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "1 Dining Table",
+      "model_number": "FURN-DT-002",
+      "secondary_material": "Wood/Steel",
+      "configuration": "6 Seater",
+      "upholstery_material": "N/A",
+      "upholstery_color": "N/A"
+    },
+    "product_details": {
+      "filling_material": "N/A",
+      "finish_type": "Natural Matte",
+      "adjustable_headrest": false,
+      "max_load_capacity_kg": 237,
+      "origin_of_manufacture": "Vietnam"
+    }
+  },
+  {
+    "product_id": 15,
+    "name": "Nero Sintered Stone Dining Table",
+    "sku": "FURN-DT-003",
+    "category": "Dining Tables",
+    "tags": [
+      "durable",
+      "6-seater",
+      "extendable"
+    ],
+    "price": 892,
+    "short_description": "Sturdy dining table for everyday meals.",
+    "detailed_description": "Designed with a stable base and durable top. Easy-care surfaces suit daily family dining and hosting.",
+    "main_image": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1517705008128-361805f42e86?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1505409628601-edc9af17fda6?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 199,
+      "height_cm": 80,
+      "depth_cm": 89,
+      "weight_kg": 70,
+      "seat_height_cm": 0,
+      "leg_height_cm": 86
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "1 Dining Table",
+      "model_number": "FURN-DT-003",
+      "secondary_material": "Wood/Steel",
+      "configuration": "6 Seater",
+      "upholstery_material": "N/A",
+      "upholstery_color": "N/A"
+    },
+    "product_details": {
+      "filling_material": "N/A",
+      "finish_type": "Stone Matte",
+      "adjustable_headrest": false,
+      "max_load_capacity_kg": 319,
+      "origin_of_manufacture": "Turkey"
+    }
+  },
+  {
+    "product_id": 16,
+    "name": "Sora Round Dining Table",
+    "sku": "FURN-DT-004",
+    "category": "Dining Tables",
+    "tags": [
+      "6-seater",
+      "rectangular",
+      "family"
+    ],
+    "price": 1028,
+    "short_description": "Sturdy dining table for everyday meals.",
+    "detailed_description": "Designed with a stable base and durable top. Easy-care surfaces suit daily family dining and hosting.",
+    "main_image": "https://images.unsplash.com/photo-1517705008128-361805f42e86?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1505409628601-edc9af17fda6?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1484101403633-562f891dc89a?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 124,
+      "height_cm": 81,
+      "depth_cm": 91,
+      "weight_kg": 35,
+      "seat_height_cm": 0,
+      "leg_height_cm": 87
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "1 Dining Table",
+      "model_number": "FURN-DT-004",
+      "secondary_material": "Wood/Steel",
+      "configuration": "6 Seater",
+      "upholstery_material": "N/A",
+      "upholstery_color": "N/A"
+    },
+    "product_details": {
+      "filling_material": "N/A",
+      "finish_type": "Gloss",
+      "adjustable_headrest": false,
+      "max_load_capacity_kg": 172,
+      "origin_of_manufacture": "China"
+    }
+  },
+  {
+    "product_id": 17,
+    "name": "Bexley Farmhouse Dining Table",
+    "sku": "FURN-DT-005",
+    "category": "Dining Tables",
+    "tags": [
+      "6-seater",
+      "durable",
+      "rectangular"
+    ],
+    "price": 1331,
+    "short_description": "Sturdy dining table for everyday meals.",
+    "detailed_description": "Designed with a stable base and durable top. Easy-care surfaces suit daily family dining and hosting.",
+    "main_image": "https://images.unsplash.com/photo-1505409628601-edc9af17fda6?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1484101403633-562f891dc89a?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 202,
+      "height_cm": 91,
+      "depth_cm": 93,
+      "weight_kg": 83,
+      "seat_height_cm": 0,
+      "leg_height_cm": 86
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "1 Dining Table",
+      "model_number": "FURN-DT-005",
+      "secondary_material": "Wood/Steel",
+      "configuration": "6 Seater",
+      "upholstery_material": "N/A",
+      "upholstery_color": "N/A"
+    },
+    "product_details": {
+      "filling_material": "N/A",
+      "finish_type": "Matte",
+      "adjustable_headrest": false,
+      "max_load_capacity_kg": 195,
+      "origin_of_manufacture": "Malaysia"
+    }
+  },
+  {
+    "product_id": 18,
+    "name": "Lumi Glass Top Dining Table",
+    "sku": "FURN-DT-006",
+    "category": "Dining Tables",
+    "tags": [
+      "family",
+      "modern",
+      "6-seater"
+    ],
+    "price": 1236,
+    "short_description": "Sturdy dining table for everyday meals.",
+    "detailed_description": "Designed with a stable base and durable top. Easy-care surfaces suit daily family dining and hosting.",
+    "main_image": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1484101403633-562f891dc89a?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1517705008128-361805f42e86?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 188,
+      "height_cm": 88,
+      "depth_cm": 85,
+      "weight_kg": 57,
+      "seat_height_cm": 0,
+      "leg_height_cm": 79
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "1 Dining Table",
+      "model_number": "FURN-DT-006",
+      "secondary_material": "Wood/Steel",
+      "configuration": "6 Seater",
+      "upholstery_material": "N/A",
+      "upholstery_color": "N/A"
+    },
+    "product_details": {
+      "filling_material": "N/A",
+      "finish_type": "Natural Matte",
+      "adjustable_headrest": false,
+      "max_load_capacity_kg": 204,
+      "origin_of_manufacture": "India"
+    }
+  },
+  {
+    "product_id": 19,
+    "name": "Vera Marble-Effect Dining Table",
+    "sku": "FURN-DT-007",
+    "category": "Dining Tables",
+    "tags": [
+      "family",
+      "modern",
+      "6-seater"
+    ],
+    "price": 1034,
+    "short_description": "Sturdy dining table for everyday meals.",
+    "detailed_description": "Designed with a stable base and durable top. Easy-care surfaces suit daily family dining and hosting.",
+    "main_image": "https://images.unsplash.com/photo-1484101403633-562f891dc89a?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1517705008128-361805f42e86?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1505409628601-edc9af17fda6?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 161,
+      "height_cm": 91,
+      "depth_cm": 110,
+      "weight_kg": 61,
+      "seat_height_cm": 0,
+      "leg_height_cm": 73
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "1 Dining Table",
+      "model_number": "FURN-DT-007",
+      "secondary_material": "Wood/Steel",
+      "configuration": "6 Seater",
+      "upholstery_material": "N/A",
+      "upholstery_color": "N/A"
+    },
+    "product_details": {
+      "filling_material": "N/A",
+      "finish_type": "Stone Matte",
+      "adjustable_headrest": false,
+      "max_load_capacity_kg": 294,
+      "origin_of_manufacture": "Vietnam"
+    }
+  },
+  {
+    "product_id": 20,
+    "name": "Timo Counter Dining Table",
+    "sku": "FURN-DT-008",
+    "category": "Dining Tables",
+    "tags": [
+      "6-seater",
+      "wood",
+      "dining"
+    ],
+    "price": 1394,
+    "short_description": "Sturdy dining table for everyday meals.",
+    "detailed_description": "Designed with a stable base and durable top. Easy-care surfaces suit daily family dining and hosting.",
+    "main_image": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1517705008128-361805f42e86?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1505409628601-edc9af17fda6?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 131,
+      "height_cm": 89,
+      "depth_cm": 101,
+      "weight_kg": 59,
+      "seat_height_cm": 0,
+      "leg_height_cm": 87
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "1 Dining Table",
+      "model_number": "FURN-DT-008",
+      "secondary_material": "Wood/Steel",
+      "configuration": "6 Seater",
+      "upholstery_material": "N/A",
+      "upholstery_color": "N/A"
+    },
+    "product_details": {
+      "filling_material": "N/A",
+      "finish_type": "Gloss",
+      "adjustable_headrest": false,
+      "max_load_capacity_kg": 206,
+      "origin_of_manufacture": "Turkey"
+    }
+  },
+  {
+    "product_id": 21,
+    "name": "Piper Upholstered Dining Chair",
+    "sku": "FURN-DC-001",
+    "category": "Dining Chairs",
+    "tags": [
+      "wooden",
+      "modern",
+      "compact"
+    ],
+    "price": 279,
+    "short_description": "Comfortable dining chair for daily use.",
+    "detailed_description": "Shaped for supportive posture and lasting comfort. Strong joints and practical finishes handle frequent use well.",
+    "main_image": "https://images.unsplash.com/photo-1501045661006-fcebe0257c3f?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1600494603989-9650cf6ddd3d?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1615874959474-d609969a20ed?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 54,
+      "height_cm": 88,
+      "depth_cm": 60,
+      "weight_kg": 6,
+      "seat_height_cm": 45,
+      "leg_height_cm": 43
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "2 Dining Chairs",
+      "model_number": "FURN-DC-001",
+      "secondary_material": "Wood/Steel",
+      "configuration": "Dining Chair",
+      "upholstery_material": "Fabric",
+      "upholstery_color": "Light Grey"
+    },
+    "product_details": {
+      "filling_material": "Foam",
+      "finish_type": "Matte",
+      "adjustable_headrest": false,
+      "max_load_capacity_kg": 127,
+      "origin_of_manufacture": "India"
+    }
+  },
+  {
+    "product_id": 22,
+    "name": "Riva Wooden Dining Chair",
+    "sku": "FURN-DC-002",
+    "category": "Dining Chairs",
+    "tags": [
+      "modern",
+      "wooden",
+      "compact"
+    ],
+    "price": 334,
+    "short_description": "Comfortable dining chair for daily use.",
+    "detailed_description": "Shaped for supportive posture and lasting comfort. Strong joints and practical finishes handle frequent use well.",
+    "main_image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1600494603989-9650cf6ddd3d?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1615874959474-d609969a20ed?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 46,
+      "height_cm": 88,
+      "depth_cm": 56,
+      "weight_kg": 5,
+      "seat_height_cm": 48,
+      "leg_height_cm": 40
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "2 Dining Chairs",
+      "model_number": "FURN-DC-002",
+      "secondary_material": "Wood/Steel",
+      "configuration": "Dining Chair",
+      "upholstery_material": "Velvet",
+      "upholstery_color": "Dusty Rose"
+    },
+    "product_details": {
+      "filling_material": "N/A",
+      "finish_type": "Natural Matte",
+      "adjustable_headrest": false,
+      "max_load_capacity_kg": 111,
+      "origin_of_manufacture": "Vietnam"
+    }
+  },
+  {
+    "product_id": 23,
+    "name": "Caden Wishbone Dining Chair",
+    "sku": "FURN-DC-003",
+    "category": "Dining Chairs",
+    "tags": [
+      "chair",
+      "modern",
+      "set-of-2"
+    ],
+    "price": 236,
+    "short_description": "Comfortable dining chair for daily use.",
+    "detailed_description": "Shaped for supportive posture and lasting comfort. Strong joints and practical finishes handle frequent use well.",
+    "main_image": "https://images.unsplash.com/photo-1600494603989-9650cf6ddd3d?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1615874959474-d609969a20ed?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1501045661006-fcebe0257c3f?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 49,
+      "height_cm": 90,
+      "depth_cm": 57,
+      "weight_kg": 6,
+      "seat_height_cm": 47,
+      "leg_height_cm": 41
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "2 Dining Chairs",
+      "model_number": "FURN-DC-003",
+      "secondary_material": "Wood/Steel",
+      "configuration": "Dining Chair",
+      "upholstery_material": "Leatherette",
+      "upholstery_color": "Walnut Brown"
+    },
+    "product_details": {
+      "filling_material": "Foam",
+      "finish_type": "Semi-Gloss",
+      "adjustable_headrest": false,
+      "max_load_capacity_kg": 123,
+      "origin_of_manufacture": "Turkey"
+    }
+  },
+  {
+    "product_id": 24,
+    "name": "Mira Velvet Dining Chair",
+    "sku": "FURN-DC-004",
+    "category": "Dining Chairs",
+    "tags": [
+      "dining",
+      "compact",
+      "chair"
+    ],
+    "price": 295,
+    "short_description": "Comfortable dining chair for daily use.",
+    "detailed_description": "Shaped for supportive posture and lasting comfort. Strong joints and practical finishes handle frequent use well.",
+    "main_image": "https://images.unsplash.com/photo-1615874959474-d609969a20ed?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1501045661006-fcebe0257c3f?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 45,
+      "height_cm": 80,
+      "depth_cm": 53,
+      "weight_kg": 5,
+      "seat_height_cm": 47,
+      "leg_height_cm": 41
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "2 Dining Chairs",
+      "model_number": "FURN-DC-004",
+      "secondary_material": "Wood/Steel",
+      "configuration": "Dining Chair",
+      "upholstery_material": "N/A",
+      "upholstery_color": "Ivory"
+    },
+    "product_details": {
+      "filling_material": "N/A",
+      "finish_type": "Satin",
+      "adjustable_headrest": false,
+      "max_load_capacity_kg": 129,
+      "origin_of_manufacture": "China"
+    }
+  },
+  {
+    "product_id": 25,
+    "name": "Hugo Ladder-Back Dining Chair",
+    "sku": "FURN-DC-005",
+    "category": "Dining Chairs",
+    "tags": [
+      "comfortable",
+      "modern",
+      "compact"
+    ],
+    "price": 292,
+    "short_description": "Comfortable dining chair for daily use.",
+    "detailed_description": "Shaped for supportive posture and lasting comfort. Strong joints and practical finishes handle frequent use well.",
+    "main_image": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1501045661006-fcebe0257c3f?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1600494603989-9650cf6ddd3d?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 55,
+      "height_cm": 90,
+      "depth_cm": 53,
+      "weight_kg": 7,
+      "seat_height_cm": 47,
+      "leg_height_cm": 42
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "2 Dining Chairs",
+      "model_number": "FURN-DC-005",
+      "secondary_material": "Wood/Steel",
+      "configuration": "Dining Chair",
+      "upholstery_material": "Boucle",
+      "upholstery_color": "N/A"
+    },
+    "product_details": {
+      "filling_material": "Foam",
+      "finish_type": "Matte",
+      "adjustable_headrest": false,
+      "max_load_capacity_kg": 121,
+      "origin_of_manufacture": "Malaysia"
+    }
+  },
+  {
+    "product_id": 26,
+    "name": "Nola Boucle Dining Chair",
+    "sku": "FURN-DC-006",
+    "category": "Dining Chairs",
+    "tags": [
+      "modern",
+      "wooden",
+      "set-of-2"
+    ],
+    "price": 300,
+    "short_description": "Comfortable dining chair for daily use.",
+    "detailed_description": "Shaped for supportive posture and lasting comfort. Strong joints and practical finishes handle frequent use well.",
+    "main_image": "https://images.unsplash.com/photo-1501045661006-fcebe0257c3f?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1600494603989-9650cf6ddd3d?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1615874959474-d609969a20ed?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 49,
+      "height_cm": 87,
+      "depth_cm": 53,
+      "weight_kg": 7,
+      "seat_height_cm": 48,
+      "leg_height_cm": 41
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "2 Dining Chairs",
+      "model_number": "FURN-DC-006",
+      "secondary_material": "Wood/Steel",
+      "configuration": "Dining Chair",
+      "upholstery_material": "Fabric",
+      "upholstery_color": "Light Grey"
+    },
+    "product_details": {
+      "filling_material": "N/A",
+      "finish_type": "Natural Matte",
+      "adjustable_headrest": false,
+      "max_load_capacity_kg": 110,
+      "origin_of_manufacture": "India"
+    }
+  },
+  {
+    "product_id": 27,
+    "name": "Aero Stackable Dining Chair",
+    "sku": "FURN-DC-007",
+    "category": "Dining Chairs",
+    "tags": [
+      "dining",
+      "wooden",
+      "compact"
+    ],
+    "price": 239,
+    "short_description": "Comfortable dining chair for daily use.",
+    "detailed_description": "Shaped for supportive posture and lasting comfort. Strong joints and practical finishes handle frequent use well.",
+    "main_image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1600494603989-9650cf6ddd3d?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1615874959474-d609969a20ed?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 46,
+      "height_cm": 76,
+      "depth_cm": 54,
+      "weight_kg": 9,
+      "seat_height_cm": 47,
+      "leg_height_cm": 43
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "2 Dining Chairs",
+      "model_number": "FURN-DC-007",
+      "secondary_material": "Wood/Steel",
+      "configuration": "Dining Chair",
+      "upholstery_material": "Velvet",
+      "upholstery_color": "Dusty Rose"
+    },
+    "product_details": {
+      "filling_material": "Foam",
+      "finish_type": "Semi-Gloss",
+      "adjustable_headrest": false,
+      "max_load_capacity_kg": 130,
+      "origin_of_manufacture": "Vietnam"
+    }
+  },
+  {
+    "product_id": 28,
+    "name": "Bergen Leatherette Dining Chair",
+    "sku": "FURN-DC-008",
+    "category": "Dining Chairs",
+    "tags": [
+      "set-of-2",
+      "compact",
+      "comfortable"
+    ],
+    "price": 196,
+    "short_description": "Comfortable dining chair for daily use.",
+    "detailed_description": "Shaped for supportive posture and lasting comfort. Strong joints and practical finishes handle frequent use well.",
+    "main_image": "https://images.unsplash.com/photo-1600494603989-9650cf6ddd3d?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1615874959474-d609969a20ed?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1501045661006-fcebe0257c3f?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 51,
+      "height_cm": 79,
+      "depth_cm": 58,
+      "weight_kg": 6,
+      "seat_height_cm": 46,
+      "leg_height_cm": 40
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "2 Dining Chairs",
+      "model_number": "FURN-DC-008",
+      "secondary_material": "Wood/Steel",
+      "configuration": "Dining Chair",
+      "upholstery_material": "Leatherette",
+      "upholstery_color": "Walnut Brown"
+    },
+    "product_details": {
+      "filling_material": "N/A",
+      "finish_type": "Satin",
+      "adjustable_headrest": false,
+      "max_load_capacity_kg": 131,
+      "origin_of_manufacture": "Turkey"
+    }
+  },
+  {
+    "product_id": 29,
+    "name": "Orchid Queen Platform Bed",
+    "sku": "FURN-BED-001",
+    "category": "Beds",
+    "tags": [
+      "storage",
+      "bedroom",
+      "headboard"
+    ],
+    "price": 860,
+    "short_description": "Stable bed frame with clean modern style.",
+    "detailed_description": "Engineered to reduce noise and movement over time. Even weight distribution improves mattress support and sleep quality.",
+    "main_image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1616627561839-074385245ff6?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 179,
+      "height_cm": 130,
+      "depth_cm": 215,
+      "weight_kg": 65,
+      "seat_height_cm": 0,
+      "leg_height_cm": 10
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "1 Bed Frame",
+      "model_number": "FURN-BED-001",
+      "secondary_material": "Wood/Steel",
+      "configuration": "Queen Bed",
+      "upholstery_material": "N/A",
+      "upholstery_color": "N/A"
+    },
+    "product_details": {
+      "filling_material": "N/A",
+      "finish_type": "Matte",
+      "adjustable_headrest": false,
+      "max_load_capacity_kg": 277,
+      "origin_of_manufacture": "India"
+    }
+  },
+  {
+    "product_id": 30,
+    "name": "Aster King Upholstered Bed",
+    "sku": "FURN-BED-002",
+    "category": "Beds",
+    "tags": [
+      "bedroom",
+      "durable",
+      "modern"
+    ],
+    "price": 1458,
+    "short_description": "Stable bed frame with clean modern style.",
+    "detailed_description": "Engineered to reduce noise and movement over time. Even weight distribution improves mattress support and sleep quality.",
+    "main_image": "https://images.unsplash.com/photo-1616627561839-074385245ff6?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1616627561839-074385245ff6?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 178,
+      "height_cm": 117,
+      "depth_cm": 218,
+      "weight_kg": 72,
+      "seat_height_cm": 0,
+      "leg_height_cm": 18
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "1 Bed Frame",
+      "model_number": "FURN-BED-002",
+      "secondary_material": "Wood/Steel",
+      "configuration": "Queen Bed",
+      "upholstery_material": "Fabric",
+      "upholstery_color": "Pebble Grey"
+    },
+    "product_details": {
+      "filling_material": "Foam",
+      "finish_type": "Natural Matte",
+      "adjustable_headrest": false,
+      "max_load_capacity_kg": 267,
+      "origin_of_manufacture": "Vietnam"
+    }
+  },
+  {
+    "product_id": 31,
+    "name": "Haven Storage Bed with Drawers",
+    "sku": "FURN-BED-003",
+    "category": "Beds",
+    "tags": [
+      "minimal",
+      "bedroom",
+      "queen"
+    ],
+    "price": 1241,
+    "short_description": "Stable bed frame with clean modern style.",
+    "detailed_description": "Engineered to reduce noise and movement over time. Even weight distribution improves mattress support and sleep quality.",
+    "main_image": "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1616627561839-074385245ff6?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 194,
+      "height_cm": 105,
+      "depth_cm": 222,
+      "weight_kg": 86,
+      "seat_height_cm": 0,
+      "leg_height_cm": 20
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "1 Bed Frame",
+      "model_number": "FURN-BED-003",
+      "secondary_material": "Wood/Steel",
+      "configuration": "Queen Bed",
+      "upholstery_material": "Velvet",
+      "upholstery_color": "Midnight Blue"
+    },
+    "product_details": {
+      "filling_material": "N/A",
+      "finish_type": "Satin",
+      "adjustable_headrest": false,
+      "max_load_capacity_kg": 350,
+      "origin_of_manufacture": "Turkey"
+    }
+  },
+  {
+    "product_id": 32,
+    "name": "Luca Solid Wood Bed Frame",
+    "sku": "FURN-BED-004",
+    "category": "Beds",
+    "tags": [
+      "modern",
+      "king",
+      "queen"
+    ],
+    "price": 1408,
+    "short_description": "Stable bed frame with clean modern style.",
+    "detailed_description": "Engineered to reduce noise and movement over time. Even weight distribution improves mattress support and sleep quality.",
+    "main_image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1616627561839-074385245ff6?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 185,
+      "height_cm": 118,
+      "depth_cm": 215,
+      "weight_kg": 79,
+      "seat_height_cm": 0,
+      "leg_height_cm": 13
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "1 Bed Frame",
+      "model_number": "FURN-BED-004",
+      "secondary_material": "Wood/Steel",
+      "configuration": "Queen Bed",
+      "upholstery_material": "N/A",
+      "upholstery_color": "Mocha"
+    },
+    "product_details": {
+      "filling_material": "Foam",
+      "finish_type": "Matte",
+      "adjustable_headrest": false,
+      "max_load_capacity_kg": 320,
+      "origin_of_manufacture": "China"
+    }
+  },
+  {
+    "product_id": 33,
+    "name": "Milo Floating Style Bed",
+    "sku": "FURN-BED-005",
+    "category": "Beds",
+    "tags": [
+      "headboard",
+      "queen",
+      "storage"
+    ],
+    "price": 791,
+    "short_description": "Stable bed frame with clean modern style.",
+    "detailed_description": "Engineered to reduce noise and movement over time. Even weight distribution improves mattress support and sleep quality.",
+    "main_image": "https://images.unsplash.com/photo-1616627561839-074385245ff6?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1616627561839-074385245ff6?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 162,
+      "height_cm": 118,
+      "depth_cm": 221,
+      "weight_kg": 92,
+      "seat_height_cm": 0,
+      "leg_height_cm": 14
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "1 Bed Frame",
+      "model_number": "FURN-BED-005",
+      "secondary_material": "Wood/Steel",
+      "configuration": "Queen Bed",
+      "upholstery_material": "Fabric",
+      "upholstery_color": "Charcoal"
+    },
+    "product_details": {
+      "filling_material": "N/A",
+      "finish_type": "Natural Matte",
+      "adjustable_headrest": false,
+      "max_load_capacity_kg": 361,
+      "origin_of_manufacture": "India"
+    }
+  },
+  {
+    "product_id": 34,
+    "name": "Nora Tufted Wingback Bed",
+    "sku": "FURN-BED-006",
+    "category": "Beds",
+    "tags": [
+      "queen",
+      "king",
+      "headboard"
+    ],
+    "price": 1253,
+    "short_description": "Stable bed frame with clean modern style.",
+    "detailed_description": "Engineered to reduce noise and movement over time. Even weight distribution improves mattress support and sleep quality.",
+    "main_image": "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1616627561839-074385245ff6?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 196,
+      "height_cm": 112,
+      "depth_cm": 210,
+      "weight_kg": 84,
+      "seat_height_cm": 0,
+      "leg_height_cm": 17
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "1 Bed Frame",
+      "model_number": "FURN-BED-006",
+      "secondary_material": "Wood/Steel",
+      "configuration": "Queen Bed",
+      "upholstery_material": "Velvet",
+      "upholstery_color": "N/A"
+    },
+    "product_details": {
+      "filling_material": "Foam",
+      "finish_type": "Satin",
+      "adjustable_headrest": false,
+      "max_load_capacity_kg": 375,
+      "origin_of_manufacture": "Vietnam"
+    }
+  },
+  {
+    "product_id": 35,
+    "name": "Tera Hydraulic Storage Bed",
+    "sku": "FURN-BED-007",
+    "category": "Beds",
+    "tags": [
+      "modern",
+      "minimal",
+      "bedroom"
+    ],
+    "price": 1145,
+    "short_description": "Stable bed frame with clean modern style.",
+    "detailed_description": "Engineered to reduce noise and movement over time. Even weight distribution improves mattress support and sleep quality.",
+    "main_image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1616627561839-074385245ff6?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 187,
+      "height_cm": 120,
+      "depth_cm": 216,
+      "weight_kg": 72,
+      "seat_height_cm": 0,
+      "leg_height_cm": 18
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "1 Bed Frame",
+      "model_number": "FURN-BED-007",
+      "secondary_material": "Wood/Steel",
+      "configuration": "Queen Bed",
+      "upholstery_material": "N/A",
+      "upholstery_color": "Pebble Grey"
+    },
+    "product_details": {
+      "filling_material": "N/A",
+      "finish_type": "Matte",
+      "adjustable_headrest": false,
+      "max_load_capacity_kg": 280,
+      "origin_of_manufacture": "Turkey"
+    }
+  },
+  {
+    "product_id": 36,
+    "name": "Soren Minimal Metal Bed",
+    "sku": "FURN-BED-008",
+    "category": "Beds",
+    "tags": [
+      "headboard",
+      "king",
+      "modern"
+    ],
+    "price": 686,
+    "short_description": "Stable bed frame with clean modern style.",
+    "detailed_description": "Engineered to reduce noise and movement over time. Even weight distribution improves mattress support and sleep quality.",
+    "main_image": "https://images.unsplash.com/photo-1616627561839-074385245ff6?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1616627561839-074385245ff6?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 178,
+      "height_cm": 115,
+      "depth_cm": 208,
+      "weight_kg": 86,
+      "seat_height_cm": 0,
+      "leg_height_cm": 15
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "1 Bed Frame",
+      "model_number": "FURN-BED-008",
+      "secondary_material": "Wood/Steel",
+      "configuration": "King Bed",
+      "upholstery_material": "Fabric",
+      "upholstery_color": "Midnight Blue"
+    },
+    "product_details": {
+      "filling_material": "Foam",
+      "finish_type": "Natural Matte",
+      "adjustable_headrest": false,
+      "max_load_capacity_kg": 284,
+      "origin_of_manufacture": "China"
+    }
+  },
+  {
+    "product_id": 37,
+    "name": "CloudRest Memory Foam Mattress 8in",
+    "sku": "FURN-MAT-001",
+    "category": "Mattresses",
+    "tags": [
+      "orthopedic",
+      "queen",
+      "support"
+    ],
+    "price": 698,
+    "short_description": "Supportive mattress for consistent sleep comfort.",
+    "detailed_description": "Designed for spinal support and pressure relief. Breathable layers help reduce heat and motion disturbance at night.",
+    "main_image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 164,
+      "height_cm": 30,
+      "depth_cm": 203,
+      "weight_kg": 40,
+      "seat_height_cm": 0,
+      "leg_height_cm": 0
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "1 Mattress",
+      "model_number": "FURN-MAT-001",
+      "secondary_material": "Foam/Spring",
+      "configuration": "King Mattress",
+      "upholstery_material": "N/A",
+      "upholstery_color": "N/A"
+    },
+    "product_details": {
+      "filling_material": "Memory Foam",
+      "finish_type": "Knit",
+      "adjustable_headrest": false,
+      "max_load_capacity_kg": 264,
+      "origin_of_manufacture": "India"
+    }
+  },
+  {
+    "product_id": 38,
+    "name": "OrthoSupport Hybrid Mattress 10in",
+    "sku": "FURN-MAT-002",
+    "category": "Mattresses",
+    "tags": [
+      "mattress",
+      "support",
+      "queen"
+    ],
+    "price": 949,
+    "short_description": "Supportive mattress for consistent sleep comfort.",
+    "detailed_description": "Designed for spinal support and pressure relief. Breathable layers help reduce heat and motion disturbance at night.",
+    "main_image": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 161,
+      "height_cm": 22,
+      "depth_cm": 203,
+      "weight_kg": 24,
+      "seat_height_cm": 0,
+      "leg_height_cm": 0
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "1 Mattress",
+      "model_number": "FURN-MAT-002",
+      "secondary_material": "Foam/Spring",
+      "configuration": "Queen Mattress",
+      "upholstery_material": "N/A",
+      "upholstery_color": "N/A"
+    },
+    "product_details": {
+      "filling_material": "Foam + Spring",
+      "finish_type": "Quilted",
+      "adjustable_headrest": false,
+      "max_load_capacity_kg": 300,
+      "origin_of_manufacture": "Vietnam"
+    }
+  },
+  {
+    "product_id": 39,
+    "name": "DreamLite Latex Mattress 8in",
+    "sku": "FURN-MAT-003",
+    "category": "Mattresses",
+    "tags": [
+      "cooling",
+      "queen",
+      "support"
+    ],
+    "price": 782,
+    "short_description": "Supportive mattress for consistent sleep comfort.",
+    "detailed_description": "Designed for spinal support and pressure relief. Breathable layers help reduce heat and motion disturbance at night.",
+    "main_image": "https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 161,
+      "height_cm": 29,
+      "depth_cm": 203,
+      "weight_kg": 25,
+      "seat_height_cm": 0,
+      "leg_height_cm": 0
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "1 Mattress",
+      "model_number": "FURN-MAT-003",
+      "secondary_material": "Foam/Spring",
+      "configuration": "King Mattress",
+      "upholstery_material": "N/A",
+      "upholstery_color": "N/A"
+    },
+    "product_details": {
+      "filling_material": "Latex Foam",
+      "finish_type": "Euro Top",
+      "adjustable_headrest": false,
+      "max_load_capacity_kg": 251,
+      "origin_of_manufacture": "Turkey"
+    }
+  },
+  {
+    "product_id": 40,
+    "name": "EverFirm Orthopedic Mattress 12in",
+    "sku": "FURN-MAT-004",
+    "category": "Mattresses",
+    "tags": [
+      "support",
+      "king",
+      "queen"
+    ],
+    "price": 508,
+    "short_description": "Supportive mattress for consistent sleep comfort.",
+    "detailed_description": "Designed for spinal support and pressure relief. Breathable layers help reduce heat and motion disturbance at night.",
+    "main_image": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 159,
+      "height_cm": 25,
+      "depth_cm": 203,
+      "weight_kg": 36,
+      "seat_height_cm": 0,
+      "leg_height_cm": 0
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "1 Mattress",
+      "model_number": "FURN-MAT-004",
+      "secondary_material": "Foam/Spring",
+      "configuration": "Queen Mattress",
+      "upholstery_material": "N/A",
+      "upholstery_color": "N/A"
+    },
+    "product_details": {
+      "filling_material": "Orthopedic Foam",
+      "finish_type": "Textured Knit",
+      "adjustable_headrest": false,
+      "max_load_capacity_kg": 276,
+      "origin_of_manufacture": "China"
+    }
+  },
+  {
+    "product_id": 41,
+    "name": "BreezeCool Gel Foam Mattress 10in",
+    "sku": "FURN-MAT-005",
+    "category": "Mattresses",
+    "tags": [
+      "hybrid",
+      "orthopedic",
+      "queen"
+    ],
+    "price": 766,
+    "short_description": "Supportive mattress for consistent sleep comfort.",
+    "detailed_description": "Designed for spinal support and pressure relief. Breathable layers help reduce heat and motion disturbance at night.",
+    "main_image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 157,
+      "height_cm": 27,
+      "depth_cm": 203,
+      "weight_kg": 29,
+      "seat_height_cm": 0,
+      "leg_height_cm": 0
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "1 Mattress",
+      "model_number": "FURN-MAT-005",
+      "secondary_material": "Foam/Spring",
+      "configuration": "Queen Mattress",
+      "upholstery_material": "N/A",
+      "upholstery_color": "N/A"
+    },
+    "product_details": {
+      "filling_material": "Gel Memory Foam",
+      "finish_type": "Knit",
+      "adjustable_headrest": false,
+      "max_load_capacity_kg": 238,
+      "origin_of_manufacture": "India"
+    }
+  },
+  {
+    "product_id": 42,
+    "name": "Serene Pocket Spring Mattress 11in",
+    "sku": "FURN-MAT-006",
+    "category": "Mattresses",
+    "tags": [
+      "cooling",
+      "queen",
+      "hybrid"
+    ],
+    "price": 731,
+    "short_description": "Supportive mattress for consistent sleep comfort.",
+    "detailed_description": "Designed for spinal support and pressure relief. Breathable layers help reduce heat and motion disturbance at night.",
+    "main_image": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 177,
+      "height_cm": 25,
+      "depth_cm": 203,
+      "weight_kg": 27,
+      "seat_height_cm": 0,
+      "leg_height_cm": 0
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "1 Mattress",
+      "model_number": "FURN-MAT-006",
+      "secondary_material": "Foam/Spring",
+      "configuration": "King Mattress",
+      "upholstery_material": "N/A",
+      "upholstery_color": "N/A"
+    },
+    "product_details": {
+      "filling_material": "Foam",
+      "finish_type": "Quilted",
+      "adjustable_headrest": false,
+      "max_load_capacity_kg": 238,
+      "origin_of_manufacture": "Vietnam"
+    }
+  },
+  {
+    "product_id": 43,
+    "name": "Nova Plush Mattress 9in",
+    "sku": "FURN-MAT-007",
+    "category": "Mattresses",
+    "tags": [
+      "comfort",
+      "support",
+      "hybrid"
+    ],
+    "price": 757,
+    "short_description": "Supportive mattress for consistent sleep comfort.",
+    "detailed_description": "Designed for spinal support and pressure relief. Breathable layers help reduce heat and motion disturbance at night.",
+    "main_image": "https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 160,
+      "height_cm": 26,
+      "depth_cm": 203,
+      "weight_kg": 31,
+      "seat_height_cm": 0,
+      "leg_height_cm": 0
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "1 Mattress",
+      "model_number": "FURN-MAT-007",
+      "secondary_material": "Foam/Spring",
+      "configuration": "King Mattress",
+      "upholstery_material": "N/A",
+      "upholstery_color": "N/A"
+    },
+    "product_details": {
+      "filling_material": "Memory Foam",
+      "finish_type": "Euro Top",
+      "adjustable_headrest": false,
+      "max_load_capacity_kg": 250,
+      "origin_of_manufacture": "Turkey"
+    }
+  },
+  {
+    "product_id": 44,
+    "name": "PrimeRest Euro Top Mattress 12in",
+    "sku": "FURN-MAT-008",
+    "category": "Mattresses",
+    "tags": [
+      "queen",
+      "orthopedic",
+      "cooling"
+    ],
+    "price": 854,
+    "short_description": "Supportive mattress for consistent sleep comfort.",
+    "detailed_description": "Designed for spinal support and pressure relief. Breathable layers help reduce heat and motion disturbance at night.",
+    "main_image": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 166,
+      "height_cm": 25,
+      "depth_cm": 203,
+      "weight_kg": 38,
+      "seat_height_cm": 0,
+      "leg_height_cm": 0
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "1 Mattress",
+      "model_number": "FURN-MAT-008",
+      "secondary_material": "Foam/Spring",
+      "configuration": "King Mattress",
+      "upholstery_material": "N/A",
+      "upholstery_color": "N/A"
+    },
+    "product_details": {
+      "filling_material": "Foam + Spring",
+      "finish_type": "Textured Knit",
+      "adjustable_headrest": false,
+      "max_load_capacity_kg": 244,
+      "origin_of_manufacture": "China"
+    }
+  },
+  {
+    "product_id": 45,
+    "name": "Axis Ergonomic Mesh Chair",
+    "sku": "FURN-OC-001",
+    "category": "Office Chairs",
+    "tags": [
+      "task-chair",
+      "adjustable",
+      "office"
+    ],
+    "price": 433,
+    "short_description": "Ergonomic office chair for long desk sessions.",
+    "detailed_description": "Includes ergonomic shaping and useful adjustments. Stable base and smooth casters support productive daily movement.",
+    "main_image": "https://images.unsplash.com/photo-1505840717430-882ce147ef2d?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1486946255434-2466348c2166?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 68,
+      "height_cm": 122,
+      "depth_cm": 65,
+      "weight_kg": 21,
+      "seat_height_cm": 56,
+      "leg_height_cm": 0
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "1 Office Chair",
+      "model_number": "FURN-OC-001",
+      "secondary_material": "Nylon/Steel",
+      "configuration": "Ergonomic Chair",
+      "upholstery_material": "Mesh",
+      "upholstery_color": "Black"
+    },
+    "product_details": {
+      "filling_material": "Foam",
+      "finish_type": "Matte",
+      "adjustable_headrest": false,
+      "max_load_capacity_kg": 154,
+      "origin_of_manufacture": "India"
+    }
+  },
+  {
+    "product_id": 46,
+    "name": "Nexo Executive Leather Chair",
+    "sku": "FURN-OC-002",
+    "category": "Office Chairs",
+    "tags": [
+      "work-from-home",
+      "executive",
+      "mesh"
+    ],
+    "price": 306,
+    "short_description": "Ergonomic office chair for long desk sessions.",
+    "detailed_description": "Includes ergonomic shaping and useful adjustments. Stable base and smooth casters support productive daily movement.",
+    "main_image": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1486946255434-2466348c2166?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1497215842964-222b430dc094?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 68,
+      "height_cm": 135,
+      "depth_cm": 66,
+      "weight_kg": 14,
+      "seat_height_cm": 50,
+      "leg_height_cm": 0
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "1 Office Chair",
+      "model_number": "FURN-OC-002",
+      "secondary_material": "Nylon/Steel",
+      "configuration": "Ergonomic Chair",
+      "upholstery_material": "Leatherette",
+      "upholstery_color": "Graphite"
+    },
+    "product_details": {
+      "filling_material": "Molded Foam",
+      "finish_type": "Semi-Gloss",
+      "adjustable_headrest": true,
+      "max_load_capacity_kg": 136,
+      "origin_of_manufacture": "Vietnam"
+    }
+  },
+  {
+    "product_id": 47,
+    "name": "Core Task Office Chair",
+    "sku": "FURN-OC-003",
+    "category": "Office Chairs",
+    "tags": [
+      "task-chair",
+      "executive",
+      "adjustable"
+    ],
+    "price": 370,
+    "short_description": "Ergonomic office chair for long desk sessions.",
+    "detailed_description": "Includes ergonomic shaping and useful adjustments. Stable base and smooth casters support productive daily movement.",
+    "main_image": "https://images.unsplash.com/photo-1486946255434-2466348c2166?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1497215842964-222b430dc094?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1505840717430-882ce147ef2d?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 62,
+      "height_cm": 113,
+      "depth_cm": 67,
+      "weight_kg": 15,
+      "seat_height_cm": 56,
+      "leg_height_cm": 0
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "1 Office Chair",
+      "model_number": "FURN-OC-003",
+      "secondary_material": "Nylon/Steel",
+      "configuration": "Ergonomic Chair",
+      "upholstery_material": "PU Leather",
+      "upholstery_color": "Slate Black"
+    },
+    "product_details": {
+      "filling_material": "Foam",
+      "finish_type": "Matte",
+      "adjustable_headrest": false,
+      "max_load_capacity_kg": 137,
+      "origin_of_manufacture": "Turkey"
+    }
+  },
+  {
+    "product_id": 48,
+    "name": "Strata Sync-Tilt Office Chair",
+    "sku": "FURN-OC-004",
+    "category": "Office Chairs",
+    "tags": [
+      "executive",
+      "lumbar",
+      "mesh"
+    ],
+    "price": 208,
+    "short_description": "Ergonomic office chair for long desk sessions.",
+    "detailed_description": "Includes ergonomic shaping and useful adjustments. Stable base and smooth casters support productive daily movement.",
+    "main_image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1497215842964-222b430dc094?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1505840717430-882ce147ef2d?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 67,
+      "height_cm": 114,
+      "depth_cm": 72,
+      "weight_kg": 17,
+      "seat_height_cm": 54,
+      "leg_height_cm": 0
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "1 Office Chair",
+      "model_number": "FURN-OC-004",
+      "secondary_material": "Nylon/Steel",
+      "configuration": "Ergonomic Chair",
+      "upholstery_material": "Mesh",
+      "upholstery_color": "Dark Brown"
+    },
+    "product_details": {
+      "filling_material": "Molded Foam",
+      "finish_type": "Semi-Gloss",
+      "adjustable_headrest": true,
+      "max_load_capacity_kg": 126,
+      "origin_of_manufacture": "China"
+    }
+  },
+  {
+    "product_id": 49,
+    "name": "Vertex Gaming Office Chair",
+    "sku": "FURN-OC-005",
+    "category": "Office Chairs",
+    "tags": [
+      "executive",
+      "ergonomic",
+      "lumbar"
+    ],
+    "price": 367,
+    "short_description": "Ergonomic office chair for long desk sessions.",
+    "detailed_description": "Includes ergonomic shaping and useful adjustments. Stable base and smooth casters support productive daily movement.",
+    "main_image": "https://images.unsplash.com/photo-1497215842964-222b430dc094?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1505840717430-882ce147ef2d?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1486946255434-2466348c2166?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 64,
+      "height_cm": 134,
+      "depth_cm": 68,
+      "weight_kg": 15,
+      "seat_height_cm": 55,
+      "leg_height_cm": 0
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "1 Office Chair",
+      "model_number": "FURN-OC-005",
+      "secondary_material": "Nylon/Steel",
+      "configuration": "Ergonomic Chair",
+      "upholstery_material": "Leatherette",
+      "upholstery_color": "Black/Red"
+    },
+    "product_details": {
+      "filling_material": "Foam",
+      "finish_type": "Matte",
+      "adjustable_headrest": true,
+      "max_load_capacity_kg": 153,
+      "origin_of_manufacture": "Malaysia"
+    }
+  },
+  {
+    "product_id": 50,
+    "name": "AeroLite Drafting Office Chair",
+    "sku": "FURN-OC-006",
+    "category": "Office Chairs",
+    "tags": [
+      "office",
+      "mesh",
+      "adjustable"
+    ],
+    "price": 267,
+    "short_description": "Ergonomic office chair for long desk sessions.",
+    "detailed_description": "Includes ergonomic shaping and useful adjustments. Stable base and smooth casters support productive daily movement.",
+    "main_image": "https://images.unsplash.com/photo-1505840717430-882ce147ef2d?auto=format&fit=crop&w=1600&q=80",
+    "secondary_images": [
+      "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1486946255434-2466348c2166?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "dimensions": {
+      "width_cm": 62,
+      "height_cm": 117,
+      "depth_cm": 72,
+      "weight_kg": 22,
+      "seat_height_cm": 49,
+      "leg_height_cm": 0
+    },
+    "warranty": {
+      "summary": "2 Year Manufacturing Warranty",
+      "service_type": "Email support@furnirohome.com",
+      "covered": "Manufacturing defects.",
+      "not_covered": "Misuse and normal wear.",
+      "domestic_warranty": "2 Year"
+    },
+    "general": {
+      "sales_package": "1 Office Chair",
+      "model_number": "FURN-OC-006",
+      "secondary_material": "Nylon/Steel",
+      "configuration": "Ergonomic Chair",
+      "upholstery_material": "PU Leather",
+      "upholstery_color": "Black"
+    },
+    "product_details": {
+      "filling_material": "Molded Foam",
+      "finish_type": "Semi-Gloss",
+      "adjustable_headrest": false,
+      "max_load_capacity_kg": 150,
+      "origin_of_manufacture": "India"
+    }
+  }
+]

@@ -4,6 +4,7 @@ const sortOptions = {
   newest: 'p.created_at DESC',
   price_asc: 'p.price ASC',
   price_desc: 'p.price DESC',
+  name_asc: 'p.name ASC',
 }
 
 const listProducts = async (req, res) => {
@@ -18,7 +19,7 @@ const listProducts = async (req, res) => {
 
     if (search) {
       values.push(`%${search}%`)
-      where.push(`p.name ILIKE $${values.length}`)
+      where.push(`(p.name ILIKE $${values.length} OR p.short_description ILIKE $${values.length})`)
     }
     if (category) {
       values.push(category)
@@ -44,12 +45,13 @@ const listProducts = async (req, res) => {
     )
 
     const dataResult = await pool.query(
-      `SELECT p.id, p.name, p.description, p.price, p.stock, p.image_url, p.created_at,
+      `SELECT p.id, p.sku, p.name, p.short_description, p.price, p.stock,
+              p.image_url, p.tags, p.created_at,
               c.name AS category_name, c.slug AS category_slug
        FROM products p
        LEFT JOIN categories c ON c.id = p.category_id
        ${whereSql}
-       ORDER BY ${orderBy}
+       ORDER BY ${orderBy}, p.id
        LIMIT $${values.length + 1} OFFSET $${values.length + 2}`,
       [...values, limit, offset]
     )
@@ -69,7 +71,8 @@ const listProducts = async (req, res) => {
 const getProduct = async (req, res) => {
   try {
     const result = await pool.query(
-      `SELECT p.id, p.name, p.description, p.price, p.stock, p.image_url, p.created_at,
+      `SELECT p.id, p.sku, p.name, p.short_description, p.description, p.price, p.stock,
+              p.image_url, p.images, p.tags, p.specs, p.created_at,
               c.name AS category_name, c.slug AS category_slug
        FROM products p
        LEFT JOIN categories c ON c.id = p.category_id
@@ -91,20 +94,32 @@ const getProduct = async (req, res) => {
 
 const createProduct = async (req, res) => {
   try {
-    const { name, description, price, stock, image_url, category_id } = req.body
+    const {
+      name, sku, short_description, description, price, stock,
+      image_url, images, tags, specs, category_id,
+    } = req.body
 
     if (!name || price === undefined || Number.isNaN(Number(price)) || Number(price) < 0) {
       return res.status(400).json({ message: 'name and a valid price are required' })
     }
 
     const result = await pool.query(
-      `INSERT INTO products (name, description, price, stock, image_url, category_id)
-       VALUES ($1, $2, $3, $4, $5, $6)
+      `INSERT INTO products
+         (name, sku, short_description, description, price, stock,
+          image_url, images, tags, specs, category_id)
+       VALUES ($1, $2, $3, $4, $5, $6, $7, $8::text[], $9::text[], $10::jsonb, $11)
        RETURNING *`,
-      [name, description || null, price, stock || 0, image_url || null, category_id || null]
+      [
+        name, sku || null, short_description || null, description || null, price,
+        stock || 0, image_url || null, images || [], tags || [],
+        JSON.stringify(specs || {}), category_id || null,
+      ]
     )
     res.status(201).json(result.rows[0])
   } catch (err) {
+    if (err.code === '23505') {
+      return res.status(409).json({ message: 'sku already exists' })
+    }
     if (err.code === '23503') {
       return res.status(400).json({ message: 'category does not exist' })
     }

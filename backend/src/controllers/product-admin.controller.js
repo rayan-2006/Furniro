@@ -1,6 +1,6 @@
 const pool = require('../config/db')
 
-const allowedFields = ['name', 'description', 'price', 'stock', 'image_url', 'category_id']
+const allowedFields = ['name', 'description', 'price', 'stock', 'image_url', 'category_id', 'sku', 'short_description', 'tags', 'images', 'specs']
 
 const updateProduct = async (req, res) => {
   try {
