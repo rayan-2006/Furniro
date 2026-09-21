@@ -1,0 +1,64 @@
+@use"../helpers/variables" as v;
+@use"../helpers/functions" as f;
+@use"../helpers/mixins" as m;
+
+// Outline buttons
+.Dark-hollow-button {
+  background-color: v.$color-white;
+  border: 1px solid v.$color-black;
+  color: v.$color-black;
+}
+
+.Colored-hollow-button {
+  background-color: v.$color-white;
+  border: 1px solid v.$color-brand-primary;
+  color: v.$color-brand-primary;
+}
+
+// Filled buttons
+.Color-button {
+  background-color: v.$color-brand-primary;
+  border: none;
+  color: v.$color-white;
+}
+
+.Light-button {
+  background-color: v.$color-white;
+  border: none;
+  color: v.$color-brand-primary;
+}
+
+// Button sizes
+.button-XXl {
+  padding: f.to-rem(25px) f.to-rem(72px);
+  font-weight: v.$font-weight-700;
+  font-size: v.$font-size-base;
+  line-height: v.$line-height-tight;
+  text-transform: uppercase;
+  width: max-content;
+}
+
+.button-Xl {
+  padding: f.to-rem(15px);
+  font-weight: v.$font-weight-700;
+  font-size: v.$font-size-base;
+  line-height: v.$line-height-tight;
+  text-transform: uppercase;
+}
+
+.button-s {
+  padding: f.to-rem(8px) f.to-rem(15px);
+  font-weight: v.$font-weight-500;
+  font-size: v.$font-size-xs;
+  line-height: v.$line-height-tight;
+  text-transform: uppercase;
+}
+
+.button-m {
+  @include m.flex-content(row, center, center, inline-flex);
+  min-height: f.to-rem(48px);
+  padding: f.to-rem(12px) f.to-rem(24px);
+  font-weight: v.$font-weight-600;
+  font-size: v.$font-size-base;
+  line-height: v.$line-height-tight;
+}

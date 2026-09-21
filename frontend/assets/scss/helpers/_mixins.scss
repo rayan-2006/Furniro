@@ -1,0 +1,14 @@
+@mixin flex-content ($flexD: row, $justifyC: null, $alignI: null, $display : flex) {
+  display: $display;
+  flex-direction: $flexD;
+  justify-content: $justifyC;
+  align-items: $alignI;
+}
+
+@mixin img-content ($URL) {
+  width: 50%;
+  height: 100vh;
+  background-image: $URL;
+  background-size: cover;
+  background-position: center;
+}

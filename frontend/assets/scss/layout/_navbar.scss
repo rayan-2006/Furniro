@@ -1,5 +1,13 @@
 // Component: Navbar
 
+@use"../helpers/variables" as v;
+@use"../helpers/mixins" as m;
+@use"../helpers/functions" as f;
 .navbar {
-  // Add component-specific styles here.
+
+  .nav-links {
+    @include m.flex-content();
+    list-style: none;
+    gap: f.to-rem(80px);
+  }
 }

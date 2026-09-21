@@ -1,0 +1,7 @@
+@function to-rem($px) {
+    @return ($px / 16px) * 1rem;
+  }
+  
+@function space($step) {
+  @return $step * 4px;
+}

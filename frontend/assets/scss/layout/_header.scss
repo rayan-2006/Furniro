@@ -1,5 +1,51 @@
 // Component: Header
 
-.header {
-  // Add component-specific styles here.
+@use"../helpers/variables" as v;
+@use"../helpers/mixins" as m;
+@use"../helpers/functions" as f;
+
+header {
+  position: sticky;
+  z-index: 100;
+  top: 0;
+  background-color: v.$color-bg-page;
+  font-family: v.$font-family-base;
+  @include m.flex-content(row, space-around, center);
+  height: max-content;
+  padding: f.to-rem(16px);
+}
+
+
+.container {
+  @include m.flex-content(row, space-between, center);
+  height: max-content;
+  width: 95%;
+}
+
+.header-logo {
+  img {
+    width: f.to-rem(185px);
+  }
+}
+
+.nav-icons {
+  list-style: none;
+  @include m.flex-content(row , null , center);
+  gap: f.to-rem(35px);
+
+  li a {
+    color: v.$color-text-base;
+    text-decoration: none;
+    font-size: v.$font-size-lg;
+    transition: v.$transition-link;
+
+    img {
+      width: f.to-rem(23px);
+      height: max-content;
+    }
+  }
+}
+
+#userMenu {
+  display: none;
 }

@@ -1,0 +1,63 @@
+// Colors
+$color-transparent: transparent;
+$color-brand-primary: #B88E2F;
+$color-brand-surface: #FFF3E3;
+$color-text-primary: #3a3a3a;
+$color-text-secondary: #666666;
+$color-border-input: #9F9F9F;
+$badge-discount-bg: #e97171;
+$badge-new-bg: #2ec1ac;
+$color-status-error: #fe3131;
+$color-status-success: #43a047;
+$card-background-color: #f4f5f7;
+$color-bg-page: #fff;
+$color-white: #ffffff;
+$color-text-base: #000;
+$color-black: #000;
+
+// Fonts
+$font-family-base: "Poppins", sans-serif;
+
+$font-weight-100: 100;
+$font-weight-200: 200;
+$font-weight-300: 300;
+$font-weight-400: 400;
+$font-weight-500: 500;
+$font-weight-600: 600;
+$font-weight-700: 700;
+$font-weight-800: 800;
+$font-weight-900: 900;
+
+// Font Sizes
+$font-size-xs: 12px;
+$font-size-sm: 13px;
+$font-size-md: 14px;
+$font-size-base: 16px;
+$font-size-lg: 18px;
+$font-size-xl: 20px;
+$font-size-2xl: 24px;
+$font-size-3xl: 32px;
+$font-size-display: 52px;
+
+// Line Heights
+$line-height-tight: 100%;
+$line-height-base: 24px;
+$line-height-display: 65px;
+
+// Border Radius
+$radius-sm: 8px;
+$radius-md: 10px;
+$radius-lg: 12px;
+$radius-full: 999px;
+
+// Transitions
+$transition-fast: 0.1s ease;
+$transition-input: all 0.15s ease;
+$transition-fade: opacity 0.2s ease;
+$transition-modal: opacity 0.2s ease, transform 0.2s ease;
+$transition-link: color 0.3s ease;
+$transition-button: background-color 0.3s ease, color 0.3s ease;
+$transition-toast: transform 0.4s ease, opacity 0.4s ease;
+
+// Shadows
+$shadow-sm: 0 0 10px #333;

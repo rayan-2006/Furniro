@@ -3,135 +3,85 @@
  *
  * Shared components are optional.
  * They are loaded only when their placeholders exist.
+ * Components can contain placeholders of other components (e.g. navbar inside header).
  *
  * Preloader is intentionally NOT loaded here.
  */
 (function () {
   'use strict';
 
-  var COMPONENTS = [
-    {
-      id: 'header',
-      src: 'components/header.html'
-    },
-    {
-      id: 'footer',
-      src: 'components/footer.html'
-    },
-    {
-      id: 'navbar',
-      src: 'components/navbar.html'
-    },
-    {
-      id: 'mobile-menu',
-      src: 'components/mobile-menu.html'
-    },
-    {
-      id: 'breadcrumb',
-      src: 'components/breadcrumb.html'
-    },
-    {
-      id: 'modal',
-      src: 'components/modal.html'
-    },
-    {
-      id: 'toast',
-      src: 'components/toast.html'
-    },
-    {
-      id: 'product-grid',
-      src: 'components/product-grid.html'
-    },
-    {
-      id: 'product-card',
-      src: 'components/product-card.html'
-    },
-    {
-      id: 'product-categories',
-      src: 'components/product-categories.html'
-    },
-    {
-      id: 'category-card',
-      src: 'components/category-card.html'
-    },
-    {
-      id: 'search',
-      src: 'components/search.html'
-    },
-    {
-      id: 'filters',
-      src: 'components/filters.html'
-    },
-    {
-      id: 'price-filter',
-      src: 'components/price-filter.html'
-    },
-    {
-      id: 'sorting',
-      src: 'components/sorting.html'
-    },
-    {
-      id: 'wishlist',
-      src: 'components/wishlist.html'
-    },
-    {
-      id: 'ratings-reviews',
-      src: 'components/ratings-reviews.html'
-    },
-    {
-      id: 'cart',
-      src: 'components/cart.html'
-    },
-    {
-      id: 'cart-item',
-      src: 'components/cart-item.html'
-    },
-    {
-      id: 'mini-cart',
-      src: 'components/mini-cart.html'
-    },
-    {
-      id: 'checkout',
-      src: 'components/checkout.html'
-    },
-    {
-      id: 'coupon',
-      src: 'components/coupon.html'
-    },
-    {
-      id: 'newsletter',
-      src: 'components/newsletter.html'
-    },
-    {
-      id: 'related-products',
-      src: 'components/related-products.html'
-    },
-    {
-      id: 'product-gallery',
-      src: 'components/product-gallery.html'
-    },
-    {
-      id: 'quantity',
-      src: 'components/quantity.html'
-    }
+  // Frontend root, derived from the URL of this script (.../frontend/)
+  var BASE = (function () {
+    var script = document.currentScript;
+    return script && script.src ? new URL('../../', script.src).href : '';
+  })();
+
+  var COMPONENT_IDS = [
+    'header',
+    'footer',
+    'navbar',
+    'mobile-menu',
+    'breadcrumb',
+    'modal',
+    'toast',
+    'product-grid',
+    'product-card',
+    'product-categories',
+    'category-card',
+    'search', 
+    'filters',
+    'price-filter',
+    'sorting',
+    'wishlist',
+    'ratings-reviews',
+    'cart', 
+    'cart-item', 
+    'mini-cart', 
+    'checkout', 
+    'coupon',
+    'newsletter', 
+    'related-products', 
+    'product-gallery', 
+    'quantity'
   ];
 
-  function loadComponent(id, src) {
+  // Links and images inside components are resolved from the frontend root,
+  // so "/index.html", "./assets/x.svg" and "assets/x.svg" all work from any page depth.
+  function fixUrls(root) {
+    if (!BASE) {
+      return;
+    }
+
+    var external = /^(?:[a-z][a-z0-9+.-]*:|#|\?|\/\/)/i;
+
+    root.querySelectorAll('[href], [src]').forEach(function (el) {
+      ['href', 'src'].forEach(function (attr) {
+        var value = el.getAttribute(attr);
+
+        if (!value || external.test(value)) {
+          return;
+        }
+
+        el.setAttribute(attr, new URL(value.replace(/^\/+/, ''), BASE).href);
+      });
+    });
+  }
+
+  function loadComponent(id, ancestors) {
     var target = document.getElementById(id);
 
     if (!target) {
       return Promise.resolve();
     }
 
-    return fetch(src)
+    var chain = ancestors.concat(id);
+    var src = 'components/' + id + '.html';
+
+    return fetch(BASE + src)
       .then(function (res) {
         if (!res.ok) {
           throw new Error(
-            'Failed to fetch ' +
-            src +
-            ' (HTTP ' +
-            res.status +
-            ')'
+            'Failed to fetch ' + src + ' (HTTP ' + res.status + ')'
           );
         }
 
@@ -139,40 +89,50 @@
       })
       .then(function (html) {
         target.innerHTML = html;
+        fixUrls(target);
+        return loadNested(target, chain);
       })
       .catch(function (err) {
-        console.error(
-          '[layout.js] Could not load ' + src + ':',
-          err
-        );
+        console.error('[layout.js] Could not load ' + src + ':', err);
       });
+  }
+
+  // Loads components whose placeholders live inside an already loaded component.
+  function loadNested(root, chain) {
+    return Promise.all(
+      COMPONENT_IDS.map(function (id) {
+        // Prevent infinite loops: a component already in the chain is skipped
+        if (chain.indexOf(id) !== -1) {
+          return Promise.resolve();
+        }
+
+        if (!root.querySelector('#' + id)) {
+          return Promise.resolve();
+        }
+
+        return loadComponent(id, chain);
+      })
+    );
   }
 
   function initFooterYear() {
     var yearEl = document.getElementById('footer-year');
 
     if (yearEl) {
-      yearEl.textContent =
-        String(new Date().getFullYear());
+      yearEl.textContent = String(new Date().getFullYear());
     }
   }
 
   function init() {
     Promise.all(
-      COMPONENTS.map(function (component) {
-        return loadComponent(
-          component.id,
-          component.src
-        );
+      COMPONENT_IDS.map(function (id) {
+        return loadComponent(id, []);
       })
     ).then(initFooterYear);
   }
 
   if (document.readyState === 'loading') {
-    document.addEventListener(
-      'DOMContentLoaded',
-      init
-    );
+    document.addEventListener('DOMContentLoaded', init);
   } else {
     init();
   }

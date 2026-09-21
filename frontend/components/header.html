@@ -1,6 +1,52 @@
-<header class="site-header">
-  <div class="site-header__inner">
-    <a class="site-header__logo" href="/">furniro</a>
-    <div class="site-header__content"></div>
-  </div>
-</header>
+<section class="header-logo">
+  <a href="/index.html">
+    <img src="./assets/content/images/icons/Furniro2.svg" alt="Furniro Logo">
+  </a>
+</section>
+<section id="navbar" class="header-nav"></section>
+<Section class="header-actions">
+    <ul class="nav-icons">
+      <li>
+        <img id="userMenu" src="./assets/content/images/icons/user.svg" alt="">
+      </li>
+      <li id="searchIcon">
+        <a href="#">
+          <img id="likeIcon" src="./assets/content/images/icons/Search.svg" alt="">
+        </a>
+      </li>
+      <li>
+        <a href=" #">
+          <img id="likeIcon" src="./assets/content/images/icons/Like.svg" alt="">
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img id="shoppingCartIcon" src="./assets/content/images/icons/Shopping cart.svg" alt="">
+        </a>
+      </li>
+      <li>
+        <a href="/assets/page/login.html">
+          <button class="button-s Dark-hollow-button" id="loginBtn">
+            login
+          </button>
+        </a>
+      </li>
+    </ul>
+
+  <dialog id="searchForm" class="search-modal">
+    <button type="button" id="searchDialogClose" class="search-modal-close-outside icon-btn icon-btn--circle">
+      <img class="icon-btn__img" src="https://www.svgrepo.com/show/522506/close.svg" alt="" aria-hidden="true">
+      <span class="sr-only">Close</span>
+    </button>
+    <div class="search-modal-panel">
+      <form action="" id="searchInputForm" class="search-form">
+        <div class="search-form-field">
+          <input type="text" id="searchInput" required>
+          <label for="searchInput">Search for your product ...</label>
+        </div>
+        <button type="submit" id="searchBtn" class="button-Xl Color-button search-action-btn">serch</button>
+      </form>
+      <div id="searchResults" class="search-results"></div>
+    </div>
+  </dialog>
+</Section>

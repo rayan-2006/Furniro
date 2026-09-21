@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product card playground</title>
+  <link rel="stylesheet" href="../assets/css/main.css">
+  <link rel="stylesheet" href="../assets/css/output.css">
+  <style>
+    .dev-toolbar { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; margin-bottom: 24px; }
+    .dev-toolbar select { max-width: 320px; }
+    .dev-stage { width: 320px; max-width: 100%; }
+    .dev-json { margin-top: 32px; max-width: 720px; }
+    .dev-json pre { background: #111; color: #ddd; padding: 16px; overflow: auto; font-size: 12px; }
+  </style>
+</head>
+<body style="padding: 24px;">
+  <div class="dev-toolbar">
+    <label>Product: <select id="product-select"></select></label>
+    <label>Card width: <input id="width" type="range" min="200" max="500" value="320"> <span id="width-label">320px</span></label>
+  </div>
+
+  <div id="stage" class="dev-stage">Loading...</div>
+
+  <details class="dev-json">
+    <summary>Data the card receives (JSON)</summary>
+    <pre id="json"></pre>
+  </details>
+
+  <script type="module">
+    import { getProducts, formatPrice } from '../assets/js/api.js'
+
+    const select = document.getElementById('product-select')
+    const stage = document.getElementById('stage')
+    const jsonBox = document.getElementById('json')
+    const width = document.getElementById('width')
+    const widthLabel = document.getElementById('width-label')
+
+    // داده‌ی دیتابیس همیشه escape بشه، وگرنه متن محصول می‌تونه کد تو صفحه اجرا کنه
+    const esc = (s) =>
+      String(s ?? '').replace(/[&<>"']/g, (c) =>
+        ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]))
+
+    // اینجا مارک‌آپ کارت خودت رو بذار و کلاس‌های scss خودت رو بهش بده
+    function renderCard(p) {
+      const soldOut = p.stock === 0
+      return /*html*/`
+        <article class="product-card " style="background-color: red;" data-id="${p.id}">
+          <div class="product-card__media">
+            <img class="product-card__image"
+                 src="${esc(p.image_url)}" alt="${esc(p.name)}" loading="lazy"
+                 style="width:100%;aspect-ratio:1/1;object-fit:cover;background:#ddd"
+                 onerror="this.style.visibility='hidden'">
+            ${soldOut ? '<span class="product-card__badge">Sold out</span>' : ''}
+          </div>
+          <div class="product-card__body">
+            <h3 class="product-card__title">${esc(p.name)}</h3>
+            <p class="product-card__desc">${esc(p.short_description)}</p>
+            <div class="product-card__price">${formatPrice(p.price)}</div>
+            <button class="product-card__btn" ${soldOut ? 'disabled' : ''}>Add to cart</button>
+          </div>
+        </article>`
+    }
+
+    let byId = new Map()
+
+    function show(id) {
+      const p = byId.get(Number(id))
+      stage.innerHTML = renderCard(p)
+      jsonBox.textContent = JSON.stringify(p, null, 2)
+    }
+
+    width.addEventListener('input', () => {
+      stage.style.width = `${width.value}px`
+      widthLabel.textContent = `${width.value}px`
+    })
+
+    async function init() {
+      try {
+        const { items } = await getProducts({ limit: 50, sort: 'name_asc' })
+        byId = new Map(items.map((p) => [p.id, p]))
+        select.innerHTML = items
+          .map((p) => `<option value="${p.id}">${esc(p.name)}${p.stock === 0 ? ' (sold out)' : ''}</option>`)
+          .join('')
+        select.addEventListener('change', () => show(select.value))
+        show(select.value)
+      } catch (err) {
+        stage.textContent = `Could not load products: ${err.message}. Is the backend running?`
+      }
+    }
+
+    init()
+  </script>
+</body>
+</html>
