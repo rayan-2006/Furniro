@@ -40,6 +40,7 @@
     'checkout', 
     'coupon',
     'newsletter', 
+    'hero',
     'related-products', 
     'product-gallery', 
     'quantity'

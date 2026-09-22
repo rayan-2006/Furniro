@@ -1,0 +1,25 @@
+@use "../helpers/variables" as *;
+
+/* ================= HERO / BANNER ================= */
+
+.hero {
+  background-image: url("/frontend/assets/content/images/photos/scandinavian-interior-mockup-wall-decal-background 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 794px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.hero-content {
+  background-color: $color-brand-surface;
+  width: 500px;
+  height: max-content;
+  padding: 41px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 10rem;
+}

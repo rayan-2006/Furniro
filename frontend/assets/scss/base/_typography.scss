@@ -1,0 +1,67 @@
+@use "../helpers/variables" as v;
+@use "../helpers/mixins" as m;
+
+h1 {
+  font-weight: v.$font-weight-700;
+  font-size: v.$font-size-display;
+  line-height: v.$line-height-display;
+  color: v.$color-brand-primary;
+}
+
+h2 {
+  font-weight: v.$font-weight-700;
+  font-size: v.$font-size-3xl;
+  line-height: v.$line-height-tight;
+  color: v.$color-text-primary;
+}
+
+// Utility padding classes
+.padding-1 {
+  padding: 1rem 3.3rem;
+}
+
+.padding-2 {
+  padding: 2.75rem 3.3rem;
+}
+
+// Text styles
+.badge {
+  font-weight: v.$font-weight-600;
+  font-size: v.$font-size-base;
+  line-height: v.$line-height-tight;
+  letter-spacing: 3px;
+}
+
+.p1 {
+  font-weight: v.$font-weight-500;
+  font-size: v.$font-size-lg;
+  line-height: v.$line-height-base;
+  color: v.$color-text-primary;
+}
+
+.p2 {
+  font-weight: v.$font-weight-400;
+  font-size: v.$font-size-xl;
+  line-height: v.$line-height-tight;
+  color: v.$color-text-secondary;
+}
+
+// Section header
+.section-header {
+  @include m.flex-content(column, null, center);
+  gap: 1rem;
+  padding: 4rem 0 4rem 0;
+}
+
+// Screen reader only
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
