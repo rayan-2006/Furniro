@@ -35,6 +35,10 @@ select {
   font: inherit;
 }
 
+body {
+  font-style: "Poppins", sans-serif;
+}
+
 h1 {
   font-weight: 700;
   font-size: 52px;
@@ -98,6 +102,24 @@ h2 {
   border: 0;
 }
 
+.container-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: max-content;
+  background-color: red;
+  padding: 3.125rem 6.25rem;
+}
+
+.container-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: max-content;
+  background-color: red;
+  padding: 3.125rem 6.25rem;
+}
+
 header {
   position: sticky;
   z-index: 100;
@@ -110,15 +132,6 @@ header {
   align-items: center;
   height: max-content;
   padding: 1rem;
-}
-
-.container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  height: max-content;
-  width: 95%;
 }
 
 .header-logo img {
@@ -147,11 +160,19 @@ header {
   display: none;
 }
 
+.footer {
+  border-top: 1px solid #D9d9d9;
+}
+
 .navbar .nav-links {
   display: flex;
   flex-direction: row;
   list-style: none;
   gap: 5rem;
+}
+
+button {
+  cursor: pointer;
 }
 
 .Dark-hollow-button {

@@ -14,14 +14,6 @@ header {
   height: max-content;
   padding: f.to-rem(16px);
 }
-
-
-.container {
-  @include m.flex-content(row, space-between, center);
-  height: max-content;
-  width: 95%;
-}
-
 .header-logo {
   img {
     width: f.to-rem(185px);

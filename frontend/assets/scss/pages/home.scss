@@ -3,6 +3,7 @@
 @use "../helpers/functions" as f;
 @use "../helpers/mixins" as m;
 @use "../helpers/variables" as v;
+@use "../helpers/utilities";
 @use "../layout/header" as header-layout;
 @use "../layout/footer" as footer-layout;
 @use "../layout/navbar" as nav-layout;

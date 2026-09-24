@@ -1,6 +1,10 @@
 @use "../helpers/variables" as v;
 @use "../helpers/mixins" as m;
 
+body{
+  font-style: 'Poppins', sans-serif;
+}
+
 h1 {
   font-weight: v.$font-weight-700;
   font-size: v.$font-size-display;
