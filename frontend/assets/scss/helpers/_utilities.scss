@@ -4,12 +4,10 @@
 .container-column {
   @include m.flex-content(column, space-between);
   height: max-content;
-  background-color: red;
   padding: f.to-rem(50px) f.to-rem(100px);
 }
 .container-row {
   @include m.flex-content(row, space-between);
   height: max-content;
-  background-color: red;
   padding: f.to-rem(50px) f.to-rem(100px);
 }

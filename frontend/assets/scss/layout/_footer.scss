@@ -1,9 +1,79 @@
 // Component: Footer
 
-.footer {
-  border-top: 1px solid #D9d9d9;
-} 
 
-.footer-main{
-  
+@use"../helpers/variables" as v;
+@use"../helpers/mixins" as m;
+@use"../helpers/functions" as f;
+
+
+.footer {
+  border-top: 1px solid v.$color-border;
+  gap: 30px;
+  &-main{
+    @include m.flex-content(row, space-between);
+    h2 {
+      font-size: v.$font-size-2xl;
+    }
+    p{
+      font-size: v.$font-size-base;
+      color: v.$color-text-light;
+    }
+  }
+  &-brand{
+    @include m.flex-content(column);
+    gap: f.to-rem(70px);
+    p{
+      width: 100%;
+    }
+  }
+  &-links{
+    @include m.flex-content(row , space-between);
+    gap: f.to-rem(200px);
+    &-group{
+      @include m.flex-content(column);
+      gap: f.to-rem(60px);
+      & ul {
+        @include m.flex-content(column);
+        gap: f.to-rem(50px);
+        li{
+          font-size: v.$font-size-base;
+          font-weight: v.$font-weight-500
+        }
+      }
+    }
+  }
+  &-newsletter{
+    @include m.flex-content(column);
+    gap: f.to-rem(70px);
+    form{
+      @include m.flex-content(row);
+      gap: f.to-rem(15px);
+      input {
+        border: none;
+        border-bottom: 1px solid v.$color-black;
+        &:focus {
+          outline: none;
+        }
+        &::placeholder{
+          font-size: f.to-rem(14px);
+          color: v.$color-text-light;
+          font-weight: v.$font-weight-400;
+        }
+      }
+      button {
+        border: none;
+        border-bottom: 1px solid v.$color-black;
+        background: none;
+      }
+    }
+  }
+  &-bottom{
+    padding: f.to-rem(50px) 0 0 0;
+    @include m.flex-content(row, space-between);
+    border-top: 1px solid v.$color-border;
+    p{
+      font-size: v.$font-size-base;
+      font-weight: v.$font-weight-400;
+    }
+  }
 }
