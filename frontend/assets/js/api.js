@@ -25,3 +25,6 @@ export const getProduct = (id) => request(`/products/${id}`)
 // قیمت از ای‌پی‌آی به‌صورت رشته میاد ("742.00"). واحد پول رو فقط همین‌جا عوض کن.
 export const formatPrice = (value) =>
   Number(value).toLocaleString('en-US', { style: 'currency', currency: 'USD' })
+
+export const subscribeNewsletter = (email) =>
+  request('/newsletter', { method: 'POST', body: JSON.stringify({ email }) })

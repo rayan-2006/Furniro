@@ -10,6 +10,8 @@ const PORT = process.env.PORT || 3000
 app.use(express.json())
 app.use('/api/auth', require('./routes/auth.routes'))
 app.use('/api/categories', require('./routes/category.routes'))
+app.use('/api/newsletter', require('./routes/newsletter.routes'))
+app.use('/api/admin/newsletter', require('./routes/admin-newsletter.routes'))
 app.use('/api/products', require('./routes/product.routes'))
 app.use('/api/cart', require('./routes/cart.routes'))
 app.use('/api/orders', require('./routes/order.routes'))
