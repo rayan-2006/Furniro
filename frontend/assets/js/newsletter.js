@@ -1,4 +1,5 @@
 import { subscribeNewsletter } from './api.js'
+import { toast } from './toast.js'
 
 document.addEventListener('submit', async (e) => {
   const form = e.target.closest('.footer-newsletter form')
@@ -13,9 +14,9 @@ document.addEventListener('submit', async (e) => {
   try {
     await subscribeNewsletter(email)
     input.value = ''
-    alert('Subscribed! Thanks for joining.')
+    toast.show('Subscribed! Thanks for joining.', 'success')
   } catch (err) {
-    alert(err.message)
+    toast.show(err.message, 'error')
   } finally {
     button.disabled = false
   }

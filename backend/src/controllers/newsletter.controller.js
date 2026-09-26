@@ -10,21 +10,23 @@ const subscribe = async (req, res) => {
       return res.status(400).json({ message: 'a valid email is required' })
     }
 
-    await pool.query(
-      'INSERT INTO newsletter_subscribers (email) VALUES ($1) ON CONFLICT (email) DO NOTHING',
+    const result = await pool.query(
+      `INSERT INTO newsletter_subscribers (email) VALUES ($1)
+       ON CONFLICT (email) DO NOTHING
+       RETURNING id`,
       [email]
     )
 
-    // چه قبلاً عضو بوده چه تازه، همون پیام موفقیت رو می‌دیم
-    // تا کسی نفهمه کدوم ایمیل قبلاً ثبت شده (حفظ حریم خصوصی)
+    if (result.rowCount === 0) {
+      return res.status(409).json({ message: 'this email is already subscribed' })
+    }
+
     res.status(201).json({ message: 'subscribed' })
   } catch (err) {
     console.error(err)
     res.status(500).json({ message: 'server error' })
   }
 }
-
-module.exports = { subscribe }
 
 const listSubscribers = async (req, res) => {
   try {
@@ -38,4 +40,4 @@ const listSubscribers = async (req, res) => {
   }
 }
 
-module.exports.listSubscribers = listSubscribers
+module.exports = { subscribe, listSubscribers }

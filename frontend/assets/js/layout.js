@@ -123,15 +123,34 @@
       yearEl.textContent = String(new Date().getFullYear());
     }
   }
-
+  function loadHead() {
+    var src = 'components/head.html';
+    return fetch(BASE + src)
+    .then(function (res) {
+      if (!res.ok) {
+        throw new Error(
+          'Failed to fetch ' + src + ' (HTTP ' + res.status + ')'
+        );
+      }
+      return res.text();
+    })
+    .then(function (html) {
+      document.head.insertAdjacentHTML('beforeend', html);
+      fixUrls(document.head);
+    })
+    .catch(function (err) {
+      console.error('[layout.js] Could not load ' + src + ':', err);
+    });
+  }
+  
   function init() {
-    Promise.all(
-      COMPONENT_IDS.map(function (id) {
+    Promise.all([
+      loadHead(),
+      ...COMPONENT_IDS.map(function (id) {
         return loadComponent(id, []);
       })
-    ).then(initFooterYear);
+    ]).then(initFooterYear);
   }
-
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', init);
   } else {

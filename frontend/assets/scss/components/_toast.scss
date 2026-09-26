@@ -1,5 +1,94 @@
 // Component: Toast
 
-.toast {
-  // Add component-specific styles here.
+@use"../helpers/variables" as v;
+@use"../helpers/mixins" as m;
+@use"../helpers/functions" as f;
+
+.Message-boxs {
+  width: 25%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  position: absolute;
+  background-color: transparent;
+  pointer-events: none;
+  position: fixed;
+  z-index: 10000;
 }
+
+.Message-box {
+  display: flex;
+  position: relative;
+  margin: 10px;
+  width: 350px;
+  overflow: hidden;
+  pointer-events: auto;
+  transform: translateX(400px);
+  opacity: 0;
+  box-shadow: v.$shadow-XY;
+  transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+.Message-box.show {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.Message-box.hide {
+  transform: translateX(400px);
+  opacity: 0;
+}
+
+
+
+.Message-box.error {
+  background-color: #e53935;
+}
+
+.Message-box.success {
+  background-color: #43a047;
+}
+
+.Message-box.info {
+  background-color: #9b5de5;
+}
+
+.message-text {
+  width: 100%;
+}
+
+.message-text p {
+  padding: 10px;
+  width: 85%;
+  color: white;
+}
+
+.bar {
+  height: 4px;
+  background-color: white;
+  width: 100%;
+}
+
+
+.close-message {
+  width: 30px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 3%;
+  color: white;
+  pointer-events: auto;
+  background-color: rgba(255, 255, 255, 0.34);
+}
+
+.close-message:hover {
+  background-color: rgba(255, 255, 255, 0.66);
+}
+
