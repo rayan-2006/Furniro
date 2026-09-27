@@ -31,10 +31,10 @@ app.get('/health', async (req, res) => {
   }
 })
 
-app.listen(PORT, (err) => {
+app.listen(PORT, '0.0.0.0', (err) => {
   if (err) {
     console.error('Failed to start server:', err.message)
     process.exit(1)
   }
-  console.log(`Listening ${PORT}`)
+  console.log(`Listening on 0.0.0.0:${PORT}`)
 })

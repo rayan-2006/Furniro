@@ -2,8 +2,8 @@
 @use"../helpers/functions" as f;
 @use"../helpers/mixins" as m;
 
-button{
-  cursor :pointer;
+button {
+  cursor: pointer;
 }
 
 // Outline buttons
@@ -65,4 +65,16 @@ button{
   font-weight: v.$font-weight-600;
   font-size: v.$font-size-base;
   line-height: v.$line-height-tight;
+}
+
+@media (max-width: 480px) {
+  .button-XXl {
+    padding: f.to-rem(20px) 0;
+    width: 100%;
+    font-weight: v.$font-weight-700;
+    font-size: v.$font-size-base;
+    line-height: v.$line-height-tight;
+    text-transform: uppercase;
+    // width: max-content;
+  }
 }

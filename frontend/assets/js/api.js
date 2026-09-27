@@ -1,4 +1,4 @@
-const API_BASE = 'http://localhost:3000/api'
+const API_BASE = `http://${location.hostname}:3000/api`
 
 async function request(path, options = {}) {
   const { headers, ...rest } = options

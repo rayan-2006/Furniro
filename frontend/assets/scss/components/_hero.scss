@@ -1,4 +1,7 @@
-@use "../helpers/variables" as *;
+@use"../helpers/variables" as v;
+@use"../helpers/mixins" as m;
+@use"../helpers/functions" as f;
+;
 
 /* ================= HERO / BANNER ================= */
 
@@ -7,14 +10,15 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 794px;
+  height: 100dvh;
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
 }
 
+
 .hero-content {
-  background-color: $color-brand-surface;
+  background-color: v.$color-brand-surface;
   width: 500px;
   height: max-content;
   padding: 41px;
@@ -22,4 +26,35 @@
   flex-direction: column;
   gap: 2rem;
   margin: 10rem;
+}
+
+@media (max-width: 1024px) {
+
+  .hero-content {
+    background-color: v.$color-brand-surface;
+    width: 45%;
+    height: max-content;
+    padding: 41px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 2rem;
+  }
+}
+
+
+@media (max-width: 768px) {
+
+  /* Mobile */
+  .hero-content {
+    width: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+
+  /* Small Mobile */
+  .hero-content {
+    width: 60%;
+  }
 }

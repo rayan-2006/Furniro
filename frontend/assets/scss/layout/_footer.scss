@@ -9,57 +9,72 @@
 .footer {
   border-top: 1px solid v.$color-border;
   gap: 30px;
-  &-main{
+
+  &-main {
     @include m.flex-content(row, space-between);
+
     h2 {
       font-size: v.$font-size-2xl;
     }
-    p{
+
+    p {
       font-size: v.$font-size-base;
       color: v.$color-text-light;
     }
   }
-  &-brand{
+
+  &-brand {
     @include m.flex-content(column);
     gap: f.to-rem(70px);
-    p{
+
+    p {
       width: 100%;
     }
   }
-  &-links{
-    @include m.flex-content(row , space-between);
+
+  &-links {
+    @include m.flex-content(row, space-between);
     gap: f.to-rem(200px);
-    &-group{
+
+    &-group {
       @include m.flex-content(column);
       gap: f.to-rem(60px);
+
       & ul {
         @include m.flex-content(column);
         gap: f.to-rem(50px);
-        li{
+
+        li {
           font-size: v.$font-size-base;
           font-weight: v.$font-weight-500
         }
       }
     }
   }
-  &-newsletter{
+
+  &-newsletter {
     @include m.flex-content(column);
     gap: f.to-rem(70px);
-    form{
+
+    form {
       @include m.flex-content(row);
       gap: f.to-rem(15px);
+
       input {
         border: none;
         border-bottom: 1px solid v.$color-black;
+
         &:focus {
           outline: none;
         }
-        &::placeholder{
+
+        &::placeholder {
           font-size: f.to-rem(14px);
           color: v.$color-text-light;
           font-weight: v.$font-weight-400;
         }
       }
+
       button {
         border: none;
         border-bottom: 1px solid v.$color-black;
@@ -67,13 +82,56 @@
       }
     }
   }
-  &-bottom{
+
+  &-bottom {
     padding: f.to-rem(50px) 0 0 0;
     @include m.flex-content(row, space-between);
     border-top: 1px solid v.$color-border;
-    p{
+
+    p {
       font-size: v.$font-size-base;
       font-weight: v.$font-weight-400;
     }
   }
 }
+
+// tablet
+@media (max-width: 1024px) {
+  .footer {
+    &-main {
+      @include m.flex-content(column);
+    }
+
+    &-brand {
+      gap: f.to-rem(30px);
+    }
+
+    &-links {
+      gap: f.to-rem(100px);
+      border-top: 1px solid v.$color-border;
+      margin: 30px 0 30px 0;
+      padding: 30px 0 30px 0;
+    }
+
+    &-newsletter {
+      gap: f.to-rem(30px);
+
+      & form {
+        width: 100%;
+
+        & input[type=email] {
+          width: 70%;
+        }
+
+        & button {
+          width: 30%;
+          color: v.$color-black;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 480px) {}

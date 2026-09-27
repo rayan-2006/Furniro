@@ -1,13 +1,21 @@
 @use"../helpers/variables" as v;
 @use"../helpers/mixins" as m;
 @use"../helpers/functions" as f;
+
 .container-column {
   @include m.flex-content(column, space-between);
   height: max-content;
   padding: f.to-rem(50px) f.to-rem(100px);
 }
+
 .container-row {
   @include m.flex-content(row, space-between);
   height: max-content;
   padding: f.to-rem(50px) f.to-rem(100px);
+}
+
+@media (max-width: 1024px) {
+  .container-column {
+    padding: f.to-rem(30px) f.to-rem(20px);
+  }
 }
