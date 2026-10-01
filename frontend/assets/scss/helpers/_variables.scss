@@ -5,7 +5,8 @@ $color-brand-surface: #FFF3E3;
 $color-text-primary: #3a3a3a;
 $color-text-secondary: #666666;
 $color-border-input: #9F9F9F;
-$color-border: #D9d9d9;
+$color-border-1: #D9d9d9;
+$color-border-2: #c8c8c8;
 $color-text-light: #9F9F9F;
 $badge-discount-bg: #e97171;
 $badge-new-bg: #2ec1ac;
@@ -64,3 +65,8 @@ $transition-toast: transform 0.4s ease, opacity 0.4s ease;
 // Shadows
 $shadow-sm: 0 0 10px #333;
 $shadow-XY: 5px 5px 10px #33333375;
+
+//border
+$border-1 : 1px solid $color-border-1;
+$border-2 : 1px solid $color-border-2;
+$border-3 : 1px solid $color-black;

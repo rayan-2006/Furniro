@@ -11,7 +11,23 @@
 .container-row {
   @include m.flex-content(row, space-between);
   height: max-content;
-  padding: f.to-rem(50px) f.to-rem(100px);
+}
+
+.container-padding-row {
+  padding-left: f.to-rem(100px);
+  padding-right: f.to-rem(100px);
+}
+
+@media (max-width: 1024px) {
+  .container-padding-row {
+    padding-left: f.to-rem(20px);
+    padding-right: f.to-rem(20px);
+  }
+}
+
+.container-padding-column {
+  padding-top: f.to-rem(50px);
+  padding-bottom: f.to-rem(50px);
 }
 
 @media (max-width: 1024px) {

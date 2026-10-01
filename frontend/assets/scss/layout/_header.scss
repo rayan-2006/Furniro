@@ -10,9 +10,17 @@ header {
   top: 0;
   background-color: v.$color-bg-page;
   font-family: v.$font-family-base;
-  @include m.flex-content(row, space-around, center);
   height: max-content;
   padding: f.to-rem(16px);
+  @include m.flex-content(column);
+}
+
+.desktop-header {
+  @include m.flex-content(row, space-between, center);
+}
+
+.mobile-header {
+  display: none;
 }
 
 .header-logo {
@@ -44,7 +52,29 @@ header {
 }
 
 @media (max-width: 1024px) {
-  header {
+  .desktop-header {
     display: none;
+  }
+
+  .mobile-header {
+    display: flex;
+
+    .search-box {
+      border: v.$border-2 ;
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      padding: 10px;
+      border-radius: v.$radius-sm;
+      align-items: center;
+      display: flex;
+      gap: 5px;
+
+      span {
+        font-size: v.$font-size-lg;
+        font-weight: v.$font-weight-700;
+        color: v.$color-brand-primary;
+      }
+    }
   }
 }

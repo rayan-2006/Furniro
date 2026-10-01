@@ -1,10 +1,11 @@
-<section class="header-logo">
-  <a href="/index.html">
-    <img src="./assets/content/images/icons/Furniro2.svg" alt="Furniro Logo">
-  </a>
-</section>
-<section id="navbar" class="header-nav"></section>
-<Section class="header-actions">
+<section class="desktop-header">
+  <section class="header-logo">
+    <a href="/index.html">
+      <img src="./assets/content/images/icons/Furniro2.svg" alt="Furniro Logo">
+    </a>
+  </section>
+  <section id="navbar" class="header-nav"></section>
+  <Section class="header-actions">
     <ul class="nav-icons">
       <li>
         <img id="userMenu" src="./assets/content/images/icons/user.svg" alt="">
@@ -33,20 +34,26 @@
       </li>
     </ul>
 
-  <dialog id="searchForm" class="search-modal">
-    <button type="button" id="searchDialogClose" class="search-modal-close-outside icon-btn icon-btn--circle">
-      <img class="icon-btn__img" src="https://www.svgrepo.com/show/522506/close.svg" alt="" aria-hidden="true">
-      <span class="sr-only">Close</span>
-    </button>
-    <div class="search-modal-panel">
-      <form action="" id="searchInputForm" class="search-form">
-        <div class="search-form-field">
-          <input type="text" id="searchInput" required>
-          <label for="searchInput">Search for your product ...</label>
-        </div>
-        <button type="submit" id="searchBtn" class="button-Xl Color-button search-action-btn">serch</button>
-      </form>
-      <div id="searchResults" class="search-results"></div>
-    </div>
-  </dialog>
-</Section>
+    <dialog id="searchForm" class="search-modal">
+      <button type="button" id="searchDialogClose" class="search-modal-close-outside icon-btn icon-btn--circle">
+        <img class="icon-btn__img" src="https://www.svgrepo.com/show/522506/close.svg" alt="" aria-hidden="true">
+        <span class="sr-only">Close</span>
+      </button>
+      <div class="search-modal-panel">
+        <form action="" id="searchInputForm" class="search-form">
+          <div class="search-form-field">
+            <input type="text" id="searchInput" required>
+            <label for="searchInput">Search for your product ...</label>
+          </div>
+          <button type="submit" id="searchBtn" class="button-Xl Color-button search-action-btn">serch</button>
+        </form>
+        <div id="searchResults" class="search-results"></div>
+      </div>
+    </dialog>
+  </Section>
+</section>
+<section class="mobile-header">
+  <div class="search-box">
+    <p>search in</p> <span>Furniro</span>
+  </div>
+</section>

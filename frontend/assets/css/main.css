@@ -151,7 +151,22 @@ h2 {
   flex-direction: row;
   justify-content: space-between;
   height: max-content;
-  padding: 3.125rem 6.25rem;
+}
+
+.container-padding-row {
+  padding-left: 6.25rem;
+  padding-right: 6.25rem;
+}
+
+@media (max-width: 1024px) {
+  .container-padding-row {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+}
+.container-padding-column {
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
 }
 
 @media (max-width: 1024px) {
@@ -165,12 +180,21 @@ header {
   top: 0;
   background-color: #fff;
   font-family: "Poppins", sans-serif;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
   height: max-content;
   padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.desktop-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mobile-header {
+  display: none;
 }
 
 .header-logo img {
@@ -200,8 +224,27 @@ header {
 }
 
 @media (max-width: 1024px) {
-  header {
+  .desktop-header {
     display: none;
+  }
+  .mobile-header {
+    display: flex;
+  }
+  .mobile-header .search-box {
+    border: 1px solid #c8c8c8;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    align-items: center;
+    display: flex;
+    gap: 5px;
+  }
+  .mobile-header .search-box span {
+    font-size: 18px;
+    font-weight: 700;
+    color: #B88E2F;
   }
 }
 .footer {
@@ -227,6 +270,12 @@ header {
 }
 .footer-brand p {
   width: 100%;
+}
+.footer .m {
+  display: flex;
+  flex-direction: row;
+  gap: 250px;
+  gap: clamp(250px, 5vw, 5px);
 }
 .footer-links {
   display: flex;
@@ -295,11 +344,19 @@ header {
   .footer-brand {
     gap: 1.875rem;
   }
-  .footer-links {
-    gap: 6.25rem;
+  .footer .m {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     border-top: 1px solid #D9d9d9;
-    margin: 30px 0 30px 0;
     padding: 30px 0 30px 0;
+    margin: 30px 0 30px 0;
+    gap: 5px;
+  }
+  .footer-links {
+    display: flex;
+    flex-direction: row;
+    gap: 6.25rem;
   }
   .footer-newsletter {
     gap: 1.875rem;
@@ -313,6 +370,12 @@ header {
   .footer-newsletter form button {
     width: 30%;
     color: #000;
+  }
+}
+@media (max-width: 480px) {
+  .m {
+    display: flex;
+    flex-direction: column;
   }
 }
 .navbar .nav-links {
