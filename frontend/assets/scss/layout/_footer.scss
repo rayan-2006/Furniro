@@ -32,7 +32,7 @@
     }
   }
 
-  .m {
+  .footer-content {
     @include m.flex-content(row);
     gap: 250px;
     gap: clamp(250px, 5vw, 5px);
@@ -112,7 +112,7 @@
       gap: f.to-rem(30px);
     }
 
-    & .m {
+    & .footer-content {
       @include m.flex-content(row, space-between);
       border-top: v.$border-1;
       padding: 30px 0 30px 0;
@@ -147,7 +147,7 @@
 @media (max-width: 768px) {}
 
 @media (max-width: 480px) {
-  .m {
+  .footer-content {
     @include m.flex-content(column);
   }
 }
