@@ -135,10 +135,7 @@ h2 {
 .p2 {
   font-weight: v.$font-weight-400;
 
-  font-size: clamp(v.$font-size-md,
-      1.4vw,
-      v.$font-size-xl );
-
+  font-size: clamp(v.$font-size-md, 1.4vw, v.$font-size-xl);
   line-height: v.$line-height-tight;
   color: v.$color-text-secondary;
 }

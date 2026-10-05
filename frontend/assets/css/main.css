@@ -86,7 +86,7 @@ h2 {
   font-weight: 700;
   font-size: clamp(24px, 2.5vw, 32px);
   line-height: 100%;
-  color: #3a3a3a;
+  color: #333333;
 }
 
 .padding-1 {
@@ -108,7 +108,7 @@ h2 {
   font-weight: 500;
   font-size: clamp(14px, 1.2vw, 18px);
   line-height: 24px;
-  color: #3a3a3a;
+  color: #333333;
 }
 
 .p2 {
@@ -271,7 +271,7 @@ header {
 .footer-brand p {
   width: 100%;
 }
-.footer .m {
+.footer .footer-content {
   display: flex;
   flex-direction: row;
   gap: 250px;
@@ -344,7 +344,7 @@ header {
   .footer-brand {
     gap: 1.875rem;
   }
-  .footer .m {
+  .footer .footer-content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -373,7 +373,7 @@ header {
   }
 }
 @media (max-width: 480px) {
-  .m {
+  .footer-content {
     display: flex;
     flex-direction: column;
   }
@@ -448,6 +448,31 @@ button {
   font-weight: 600;
   font-size: 16px;
   line-height: 100%;
+}
+
+.btn-move {
+  background-color: #ffffff;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 35px;
+  aspect-ratio: 1/1;
+  border: 1px solid #000;
+  border-radius: 999px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-move img {
+  width: 70%;
+  aspect-ratio: 1/1;
+}
+.btn-move-left {
+  left: 0;
+}
+.btn-move-right {
+  right: 0;
 }
 
 @media (max-width: 480px) {
@@ -597,6 +622,46 @@ button {
     right: 40%;
   }
 }
+.category-cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.category-cards-titel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.category-cards-section {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+  justify-content: center;
+  position: relative;
+}
+
+.category-card {
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+.category-card .category-card__image {
+  width: 100%;
+  object-fit: cover;
+  height: 700px;
+  border-radius: 10px;
+}
+.category-card .category-card__title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
 .preloader {
   position: fixed;
   inset: 0;

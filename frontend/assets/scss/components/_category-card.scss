@@ -1,5 +1,47 @@
 // Component: Category Card
 
+@use"../helpers/variables" as v;
+@use"../helpers/mixins" as m;
+@use"../helpers/functions" as f;
+
+.category-cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.category-cards-titel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.category-cards-section {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+  justify-content: center;
+  position: relative;
+}
+
 .category-card {
-  // Add component-specific styles here.
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+
+  .category-card__image {
+    width: 100%;
+    object-fit: cover;
+    height: 700px;
+    border-radius: v.$radius-md;
+  }
+
+  .category-card__title {
+    font-size: v.$font-size-2xl;
+    font-weight: v.$font-weight-600;
+  }
 }

@@ -67,6 +67,35 @@ button {
   line-height: v.$line-height-tight;
 }
 
+.btn-move {
+  background-color: v.$color-white;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 35px;
+  aspect-ratio: 1 / 1;
+  border: v.$border-3;
+  border-radius: v.$radius-full;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  & img {
+    width: 70%;
+    aspect-ratio: 1 / 1;
+  }
+
+  &-left {
+    left: 0;
+  }
+
+  &-right {
+    right: 0;
+  }
+}
+
+
 @media (max-width: 480px) {
   .button-XXl {
     padding: f.to-rem(20px) 0;
